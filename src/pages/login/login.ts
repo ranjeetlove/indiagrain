@@ -42,7 +42,7 @@ export class LoginPage {
     this.submitted = true;
     if (this.mygroup.valid) {
       console.log(this.mygroup.value);
-      this.navCtrl.push(TodayFollowUpPage);
+      this.navCtrl.setRoot(TodayFollowUpPage)
     }
 }
   signUp(){
