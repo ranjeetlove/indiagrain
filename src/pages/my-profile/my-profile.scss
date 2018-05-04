@@ -1,0 +1,27 @@
+page-my-profile {
+   .profile{
+     margin-top:8px;
+   }
+   .edit{
+     float:right;
+     background-color:#1090fd;
+     box-shadow:none;
+     border:none;
+   }
+   .profile-box{
+     height:auto;
+     width:100%
+   }
+   .profile-pic{
+     width: 90px !important;
+     height: 90px !important;
+     border: 2px solid #fff;
+     border-radius: 100%;
+     overflow: hidden !important;
+     margin: auto;
+   }
+   .profile-name{
+    text-align: center;
+    color:#fff;
+   }
+}

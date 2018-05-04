@@ -1,0 +1,30 @@
+<!--
+  Generated template for the OtpPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="blue">
+    <ion-title>OTP</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+   <p>We have sent an OTP on your number</p>
+   <p>+91 258<span>-</span>xxxx<span>-</span>xxxx</p>
+    
+<ion-grid>
+  <ion-row>
+    <ion-col col-2 offset-2><ion-input class="input-border" type="text"></ion-input></ion-col>
+    <ion-col col-2><ion-input class="input-border" type="text"></ion-input></ion-col>
+    <ion-col col-2><ion-input class="input-border" type="text"></ion-input></ion-col>
+    <ion-col col-2><ion-input class="input-border" type="text"></ion-input></ion-col>
+  </ion-row>
+</ion-grid>
+    <p>Didn't get the OTP?<span><a href="#"> Resend OTP</a></span></p>
+   <button ion-button block (click)="ressetPass()">Done</button>
+</ion-content>

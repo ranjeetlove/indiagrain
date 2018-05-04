@@ -1,0 +1,123 @@
+<!--
+  Generated template for the QuotationDetailsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="blue">
+    <ion-title>Quotation Details</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <div>
+	<ion-segment [(ngModel)]="quotation" >
+        <ion-segment-button segment-activated value="quotationinfo">
+          Quotation Info
+        </ion-segment-button> 
+        <ion-segment-button value="extraformation">
+          Extra Formation
+        </ion-segment-button> 
+     </ion-segment>
+  </div>
+  <div [ngSwitch]="quotation" >
+      <div *ngSwitchCase="'quotationinfo'">
+      	<ion-list>
+      		<ion-item>
+      			<ion-label stacked>Quotation Number</ion-label>
+                <ion-input type="text" placeholder="IGS/16-17/2031"></ion-input>
+      		</ion-item>
+      		<ion-item>
+              <ion-label stacked>Product</ion-label>
+               <ion-select>
+                 <ion-option value="nes" selected="true">select</ion-option>
+                 <ion-option value="n64">unselect</ion-option>
+               </ion-select>
+          </ion-item>
+          <ion-item>
+              <ion-label stacked>Model</ion-label>
+               <ion-select>
+                 <ion-option value="nes" selected="true">Select model</ion-option>
+                 <ion-option value="n64">unselect</ion-option>
+               </ion-select>
+          </ion-item>
+          <ion-item>
+              <ion-label stacked>Qty</ion-label>
+               <ion-select>
+                 <ion-option value="nes" selected="true">1</ion-option>
+                 <ion-option value="n64">2</ion-option>
+               </ion-select>
+          </ion-item>
+          <ion-item>
+              <ion-label stacked>Catalogue</ion-label>
+              <ion-input type="text" placeholder="####"></ion-input>
+          </ion-item>
+          <ion-item>
+              <ion-label stacked>Rate</ion-label>
+              <ion-input type="text" placeholder="1000"></ion-input>
+          </ion-item>
+          <ion-item>
+              <ion-label stacked>Discount</ion-label>
+              <ion-input type="text" placeholder="20%"></ion-input>
+          </ion-item>
+          <ion-item>
+              <ion-label stacked>Amount</ion-label>
+              <ion-input type="text" placeholder="8000"></ion-input>
+          </ion-item> 	
+        </ion-list>
+        <ion-grid>
+             <ion-row>
+               <ion-col col-12><button ion-button block>ADD</button></ion-col>
+            </ion-row>
+         </ion-grid>
+       </div>
+
+       <!-- second tab -->
+       <!-- second tab -->
+       <!-- second tab -->
+       <!-- second tab -->
+
+      <div *ngSwitchCase="'extraformation'">
+                  	
+      	<ion-list>
+            
+            	<div class="extrabox">
+            	   <p>Payment Details</p>
+            	</div>
+            <ion-item>
+                <ion-input type="text" placeholder="payment Received"></ion-input>
+      		</ion-item>
+      		<ion-item>
+               <ion-select>
+                 <ion-option value="nes" selected="true">Payment Mode</ion-option>
+                 <ion-option value="n64">unselect</ion-option>
+               </ion-select>
+          </ion-item>
+          <div class="extrabox">
+            	   <p>Material Details</p>
+            	</div>
+          <ion-item>
+                <ion-input type="text" placeholder="Meterial"></ion-input>
+      	  </ion-item>
+          <div class="extrabox">
+            	   <p>Extra Details</p>
+            	</div>
+      	   <ion-item>
+                <ion-input type="text" placeholder="If any thing else"></ion-input>
+      	  </ion-item>
+     	
+        </ion-list>
+        <ion-grid>
+             <ion-row>
+               <ion-col col-12><button ion-button block>ADD</button></ion-col>
+            </ion-row>
+         </ion-grid>
+      	
+      </div>
+  </div>        
+
+</ion-content>

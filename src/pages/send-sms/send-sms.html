@@ -1,0 +1,56 @@
+
+<ion-header>
+  <ion-navbar color="blue">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Send sms</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+	 <div class="sendsms">
+         <ion-list>
+           <ion-item>
+               <ion-input type="text" placeholder="Mobile Number"></ion-input>
+         </ion-item>
+          <br>
+         <ion-item>
+            <ion-input type="password" placeholder="Search By Mobile Number"></ion-input>
+         </ion-item>
+         <ion-item>
+		    <ion-label>Language</ion-label>
+		    <ion-select>
+		      <ion-option value="nes">English</ion-option>
+		      <ion-option value="n64">Hindi</ion-option>
+		    </ion-select>
+		  </ion-item>
+		  <ion-item>
+		    <ion-label>NON-DND</ion-label>
+		    <ion-select>
+		      <ion-option value="nes">English</ion-option>
+		      <ion-option value="n64">Hindi</ion-option>
+		    </ion-select>
+		  </ion-item>
+		  <ion-item>
+		    <ion-label>Select</ion-label>
+		    <ion-select>
+		      <ion-option value="nes">English</ion-option>
+		      <ion-option value="n64">Hindi</ion-option>
+		    </ion-select>
+		  </ion-item>
+		  <ion-item>
+		    <ion-label stacked>Type Your Message</ion-label>
+		    <ion-input type="text"></ion-input>
+		  </ion-item>
+     </ion-list>
+          <ion-grid>
+			  <ion-row>
+			    <ion-col col-6><button ion-button block outline>CANCEL</button></ion-col>
+			 
+			    <ion-col col-6><button ion-button block>SEND</button></ion-col>
+			  </ion-row>
+       </ion-grid>
+</div>
+</ion-content>

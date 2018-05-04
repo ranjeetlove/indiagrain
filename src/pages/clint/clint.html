@@ -1,0 +1,188 @@
+<ion-header>
+  <ion-navbar color="blue">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Client Enquriy</ion-title>
+  </ion-navbar>
+</ion-header>
+<!-- Segment in a header -->
+ 
+
+<ion-content>
+   <div>
+     <ion-segment [(ngModel)]="client" >
+        <ion-segment-button segment-activated value="clientinfo">
+          client Info
+        </ion-segment-button> 
+        <ion-segment-button value="enquriy">
+          enquriy
+        </ion-segment-button> 
+        <ion-segment-button value="followUp">
+          Follow Up
+        </ion-segment-button> 
+        <ion-segment-button value="history">
+          History
+        </ion-segment-button> 
+     </ion-segment> 
+   </div>
+   <div [ngSwitch]="client" padding>
+      <div *ngSwitchCase="'clientinfo'">
+        <form>
+            <ion-list>
+              <ion-item class="bottom-border">
+                <ion-label stacked>Client Industry</ion-label>
+                <ion-select class="width100"  multiple="true"  okText="OK" cancelText="cancel">
+                   <ion-option value="bacon" selected="true">Apple Computers</ion-option>
+                   <ion-option value="olives">Black Olives</ion-option>
+                   <ion-option value="xcheese">Extra Cheese</ion-option>
+                </ion-select>
+              </ion-item>
+              <ion-item class="bottom-border">
+                <ion-label>Enquiry Date</ion-label>
+                  <ion-datetime displayFormat="h:mm A" pickerFormat="h mm A"></ion-datetime>
+              </ion-item> 
+              <ion-item class="bottom-border">
+                  <ion-label stacked>Source of Enquiry</ion-label>
+                  <ion-input type="text" placeholder="#"></ion-input>
+               </ion-item>
+               <ion-item class="bottom-border">
+                <ion-label stacked>Types of Enquiry</ion-label>
+                <ion-select class="width100"  multiple="true"  okText="OK" cancelText="cancel">
+                   <ion-option value="bacon" selected="true">Select</ion-option>
+                   <ion-option value="olives">Black Olives</ion-option>
+                   <ion-option value="xcheese">Extra Cheese</ion-option>
+                </ion-select>
+              </ion-item>
+               <ion-item class="bottom-border">
+                <ion-label stacked>% of getting order</ion-label>
+                <ion-select class="width100"  multiple="true"  okText="OK" cancelText="cancel">
+                   <ion-option value="bacon" selected="true">Select</ion-option>
+                   <ion-option value="olives">Black Olives</ion-option>
+                   <ion-option value="xcheese">Extra Cheese</ion-option>
+                </ion-select>
+              </ion-item>
+               <ion-item class="bottom-border">
+                  <ion-label stacked>Competitor Name/Price</ion-label>
+                  <ion-input type="text" placeholder="#"></ion-input>
+               </ion-item>
+         </ion-list>
+         <ion-grid>
+                 <ion-row>
+                  <ion-col col-4><button ion-button block outline (click)="quotationdetails()">Add Quotation</button></ion-col>
+                  <ion-col col-4><button ion-button block outline>Send Email</button></ion-col>
+                  <ion-col col-4><button ion-button block outline>Send Sms</button></ion-col>
+                  </ion-row>
+                </ion-grid>
+            <button ion-button  block>Submit</button>
+            <button ion-button  color="light" block>Go Back</button>
+        </form>
+      </div>
+      <!-- second tab-->
+      <!-- second tab-->
+      <!-- second tab-->
+       <div *ngSwitchCase="'enquriy'">
+          <ion-list>
+            <ion-item>
+              <ion-label stacked>Enquiry Type</ion-label>
+               <ion-select>
+                 <ion-option value="nes" selected="true">Cp Compressors</ion-option>
+                 <ion-option value="n64">Hindi</ion-option>
+               </ion-select>
+            </ion-item> 
+            <ion-item>
+              <ion-label stacked>Required Models</ion-label>
+               <ion-select>
+                 <ion-option value="nes" selected="true">Cp Catalogue</ion-option>
+                 <ion-option value="n64">Hindi</ion-option>
+               </ion-select>
+            </ion-item> 
+            <ion-item>
+               <ion-label stacked>Username</ion-label>
+               <ion-input type="text" placeholder="4000"></ion-input>
+            </ion-item>
+           <ion-item>
+               <ion-label stacked>Password</ion-label>
+               <ion-input type="password" placeholder="3000"></ion-input>
+           </ion-item>
+         </ion-list>
+         <button ion-button block>ADD</button>
+       </div>
+       <!-- third tab-->
+       <!-- third tab-->
+       <!-- third tab-->
+       <div *ngSwitchCase="'followUp'">
+           <ion-list>
+            <ion-item>
+              <ion-label stacked>FollowUp By</ion-label>
+               <ion-select>
+                 <ion-option value="nes" selected="true">8 Selected</ion-option>
+                 <ion-option value="n64">Hindi</ion-option>
+               </ion-select>
+            </ion-item> 
+            <ion-item>
+              <ion-label stacked>FollowUp Media</ion-label>
+               <ion-select>
+                 <ion-option value="nes" selected="true">Call</ion-option>
+                 <ion-option value="n64">Hindi</ion-option>
+               </ion-select>
+            </ion-item>
+            <ion-item>
+              <ion-label stacked>Types Of Enquiry</ion-label>
+               <ion-select>
+                 <ion-option value="nes" selected="true">3 selected</ion-option>
+                 <ion-option value="n64">Hindi</ion-option>
+               </ion-select>
+            </ion-item> 
+            <ion-item>
+              <ion-label stacked>Client status</ion-label>
+               <ion-select>
+                 <ion-option value="nes" selected="true">Uku, WP50</ion-option>
+                 <ion-option value="n64">Hindi</ion-option>
+               </ion-select>
+            </ion-item>
+            <ion-item>
+              <ion-label stacked>Call status</ion-label>
+               <ion-select>
+                 <ion-option value="nes" selected="true">Success</ion-option>
+                 <ion-option value="n64">Hindi</ion-option>
+               </ion-select>
+            </ion-item>
+             <ion-item>
+              <ion-label stacked>SMS Duration</ion-label>
+               <ion-select>
+                 <ion-option value="nes" selected="true">Twice in week</ion-option>
+                 <ion-option value="n64">Hindi</ion-option>
+               </ion-select>
+            </ion-item>
+            <ion-item>
+              <ion-label stacked>SMS remark</ion-label>
+              <ion-input type="text" placeholder="#"></ion-input>
+            </ion-item>
+             <ion-item>
+              <ion-label stacked>Exe remark</ion-label>
+              <ion-input type="text" placeholder="#"></ion-input>
+            </ion-item>
+         </ion-list>
+          <ion-grid>
+             <ion-row>
+               <ion-col col-6><button ion-button block outline>CANCEL</button></ion-col>
+               <ion-col col-6><button ion-button block>ADD</button></ion-col>
+            </ion-row>
+         </ion-grid>
+             <ion-row>
+                <ion-col col-12><button ion-button block outline>View Previous Follow Up <ion-icon name="arrow-forward"></ion-icon></button></ion-col>
+             </ion-row> 
+       </div>
+
+       <!-- fourth tab-->
+       <!-- fourth tab-->
+       <!-- fourth tab-->
+
+       <div *ngSwitchCase="'history'">
+          <ion-item>
+             <h5>Apurva</h5>
+           </ion-item> 
+       </div> 
+   </div>
+</ion-content>
