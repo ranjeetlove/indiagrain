@@ -5,6 +5,7 @@ import {Validators, FormBuilder, FormGroup, AbstractControl } from '@angular/for
 import { TodayFollowUpPage } from '../today-follow-up/today-follow-up';
 import { SignUpPage } from '../sign-up/sign-up';
 import { ForgotPasswordPage } from '../forgot-password/forgot-password';
+import { AuthServiceProvider } from '../../providers/auth-service/auth-service';
 
 /**
  * Generated class for the LoginPage page.
@@ -20,17 +21,20 @@ import { ForgotPasswordPage } from '../forgot-password/forgot-password';
 })
 export class LoginPage {
    mygroup:FormGroup;
-   email:AbstractControl;
+   userid:AbstractControl;
    password:AbstractControl;
    submitted: boolean = false;
+
+   responseData : any;
+   logData = {"userid":"", "pwd":""}
  
-  constructor(private formBuilder: FormBuilder, public navCtrl: NavController, public navParams: NavParams) {
+  constructor(private formBuilder: FormBuilder, public navCtrl: NavController, public navParams: NavParams, public authServiceProvider: AuthServiceProvider) {
         
        this.mygroup = formBuilder.group({
-        email:['',Validators.required],
+        userid:['',Validators.required],
         password:['',Validators.required]
        });
-        this.email = this.mygroup.controls['email'];
+        this.userid = this.mygroup.controls['userid'];
         this.password = this.mygroup.controls['password'];
 
   }
@@ -42,7 +46,15 @@ export class LoginPage {
     this.submitted = true;
     if (this.mygroup.valid) {
       console.log(this.mygroup.value);
-      this.navCtrl.setRoot(TodayFollowUpPage)
+      //this.navCtrl.setRoot(TodayFollowUpPage)
+        this.authServiceProvider.loginData(this.logData, "user_login").then((result) => {
+        this.responseData = result;
+        console.log(this.responseData);
+        localStorage.setItem('logData', JSON.stringify(this.responseData) )
+        //this.navCtrl.setRoot(TodayFollowUpPage);
+      }, (err) =>{
+         this.navCtrl.setRoot(TodayFollowUpPage);
+      }); 
     }
 }
   signUp(){

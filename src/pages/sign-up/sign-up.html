@@ -4,59 +4,68 @@
   </ion-navbar>
 </ion-header>
 <ion-content padding>
+
+    <div class="logo">
+        <img src="/assets/imgs/logo/login_logo.png">
+    </div>
     <form [formGroup]="signupform" (ngSubmit)="homePage()"> 
-	<div class="profile-upload">
+	<!-- <div class="profile-upload">
 		<div class="profile-area">
 			<img src="assets/imgs/profile.jpg">
 		</div>	
-    </div>
+    </div> -->
     <div>
     	<ion-list>
         <ion-item>
-            <ion-label floating>Full Name</ion-label>
-            <ion-input type="text" formControlName="fullname"></ion-input>
+            <ion-label floating>First Name</ion-label>
+            <ion-input type="text" formControlName="fname" [(ngModel)]="userData.fname"></ion-input>
         </ion-item>
-        <ion-item *ngIf="fullname.hasError('required') && fullname.touched">
-            <p class="red">Pls Enter your full name</p>
-          </ion-item>
+        <p *ngIf="fname.hasError('required') && fname.touched">
+            <span class="red">Pls Enter your first name</span>
+        </p>
         <ion-item>
-            <ion-label floating>Password</ion-label>
-            <ion-input type="password" formControlName="password"></ion-input>
+          <ion-label floating>Last Name</ion-label>
+          <ion-input type="text" formControlName="lname" [(ngModel)]="userData.lname"></ion-input>
+      </ion-item>
+      <p *ngIf="lname.hasError('required') && lname.touched">
+          <span class="red">Pls Enter your last name</span>
+      </p>
+       <ion-item>
+          <ion-label floating>email</ion-label>
+          <ion-input type="text" formControlName="email" [(ngModel)]="userData.email"></ion-input>
+          <p *ngIf="email.hasError('required') && email.touched">
+            <span class="red">enter your email</span>
+        </p>
         </ion-item>
-        <ion-item *ngIf="password.hasError('required') && password.touched">
-            <p class="red">Pls create your password</p>
-          </ion-item>
-        </ion-list>
-        <ion-grid>
-        	<ion-label >Mobile Number</ion-label>
-           <ion-row>
-            <ion-col col-6>
-            	<ion-select multiple="false"  okText="OK" cancelText="cancel" formControlName="countrycode">
-                   <ion-option value="bacon" selected="true">+91</ion-option>
-                   <ion-option value="olives">+81</ion-option>
-                   <ion-option value="xcheese">+75</ion-option>
-                </ion-select>
-                <ion-item *ngIf="countrycode.hasError('required') && countrycode.touched">
-                    <p class="red">Select country code</p>
-                  </ion-item>
-            </ion-col>
-            <ion-col col-6><ion-input type="number" placeholder="9839629561" formControlName="mobile"></ion-input>
-              <ion-item *ngIf="mobile.hasError('required') && mobile.touched">
-                  <p class="red">enter moblie</p>
-                </ion-item>
-            </ion-col>
-            
-           </ion-row>
-        </ion-grid>
-        <ion-list>
-           <ion-item>
+        <ion-item>
+          <ion-label floating>User ID</ion-label>
+          <ion-input type="text" formControlName="userid" [(ngModel)]="userData.userid"></ion-input>
+          <p *ngIf="address.hasError('required') && address.touched">
+            <span class="red">User ID</span>
+        </p>
+        </ion-item>
+        <ion-item>
+          <ion-label floating>User Type</ion-label>
+          <ion-input type="text" formControlName="usertype" [(ngModel)]="userData.usertype"></ion-input>
+          <p *ngIf="address.hasError('required') && address.touched">
+            <span class="red">usertype</span>
+        </p>
+        </ion-item>
+        <ion-item>
+          <ion-label floating>Password</ion-label>
+          <ion-input type="password" formControlName="password" [(ngModel)]="userData.pwd"></ion-input>
+      </ion-item>
+      <p *ngIf="password.hasError('required') && password.touched">
+          <span class="red">Pls create your password</span>
+      </p>
+         <!-- <ion-item>
             <ion-label floating>All Address</ion-label>
-            <ion-input type="text" formControlName="address"></ion-input>
+            <ion-textarea rows="3" formControlName="address"></ion-textarea>
         </ion-item>
-        <ion-item *ngIf="address.hasError('required') && address.touched">
-            <p class="red">enter your address</p>
-          </ion-item>
-        
+          <p *ngIf="address.hasError('required') && address.touched">
+               <span class="red">enter your address</span>
+             </p>
+         -->
     </ion-list>
    </div>
      <div class="policy">

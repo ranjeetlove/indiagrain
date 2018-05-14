@@ -16,20 +16,20 @@
    	  <ion-list>
 
   <ion-item>
-    <ion-label floating><span><ion-icon name="mail"></ion-icon></span> Email</ion-label>
-    <ion-input type="text" formControlName="email"></ion-input>
+    <ion-label floating><span><ion-icon name="person"></ion-icon></span> User Id</ion-label>
+    <ion-input type="text" formControlName="userid" [(ngModel)]="logData.userid"></ion-input>
   </ion-item>
-  <ion-item *ngIf="email.hasError('required') && email.touched">
-    <p class="red">Pls Enter your email address</p>
-  </ion-item>
+  <p *ngIf="userid.hasError('required') && userid.touched">
+    <span class="red">Pls Enter your User Id</span>
+  </p>
   <ion-item>
   	 
      <ion-label floating><span><ion-icon name="lock"></ion-icon></span> Password</ion-label>
-    <ion-input type="password" formControlName="password"></ion-input>
+    <ion-input type="password" formControlName="password" [(ngModel)]="logData.pwd"></ion-input>
   </ion-item>
-  <ion-item *ngIf="password.hasError('required') && password.touched">
-    <p class="red">Pls Enter your password</p>
-  </ion-item>
+  <p *ngIf="password.hasError('required') && password.touched">
+    <span class="red">Pls Enter your password</span>
+  </p>
 </ion-list>
    </div>
    <div class="remember">
@@ -40,9 +40,9 @@
 </ion-item>
 </ion-list>
    </div>
-   <button  type="submit" ion-button block >LOG IN</button>
+   <button   type="submit" ion-button block >LOG IN</button>
    <div class="forgot-password">
-   	  <a href="#" (click)="forgotPass()">Forgot Password?</a>
+   	  <a href="#"  (click)="forgotPass()">Forgot Password?</a>
    </div>
  </form>
 </ion-content>

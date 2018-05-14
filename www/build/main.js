@@ -1,6 +1,6 @@
 webpackJsonp([14],{
 
-/***/ 101:
+/***/ 102:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -34,7 +34,7 @@ var FollowUpDetailsPage = /** @class */ (function () {
     };
     FollowUpDetailsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-follow-up-details',template:/*ion-inline-start:"C:\Users\pc\myApp\src\pages\follow-up-details\follow-up-details.html"*/'<!--\n  Generated template for the FollowUpDetailsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header >\n\n  <ion-navbar color="blue">\n    <ion-title>Follow Up Details</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n    <ion-card>\n          <ion-card-content>\n          	    <ion-list>\n          	    	<ion-item text-wrap class="item">\n          	    		<div class="firstname">\n          		 		Firm Name \n          		 	</div>	\n          		 	<div class="details">\n          		 		Prakashchand kirorimal rice millers\n          		 	</div>\n          	    	</ion-item>\n          	    </ion-list>	\n          	     <ion-list>\n          	    	<ion-item text-wrap>\n          	    		<div class="firstname">\n          		 		Contact Person \n          		 	</div>	\n          		 	<div class="details">\n          		 		Sandeep Tyagi\n          		 	</div>\n          	    	</ion-item>\n          	    </ion-list>	\n          	     <ion-list>\n          	    	<ion-item text-wrap>\n          	    		<div class="firstname">\n          		 		Address \n          		 	</div>	\n          		 	<div class="details">\n          		 		H-35 sector 63\n          		 	</div>\n          	    	</ion-item>\n          	    </ion-list>\n          	    <ion-list>\n          	    	<ion-item text-wrap>\n          	    		<div class="firstname">\n          		 		District \n          		 	</div>	\n          		 	<div class="details">\n          		 		Noida\n          		 	</div>\n          	    	</ion-item>\n          	    </ion-list>\n          	    <ion-list>\n          	    	<ion-item text-wrap>\n          	    		<div class="firstname">\n          		 		Pincode \n          		 	</div>	\n          		 	<div class="details">\n          		 		####\n          		 	</div>\n          	    	</ion-item>\n          	    </ion-list>\n          	    <ion-list>\n          	    	<ion-item text-wrap>\n          	    		<div class="firstname">\n          		 		Country \n          		 	</div>	\n          		 	<div class="details">\n          		 		India\n          		 	</div>\n          	    	</ion-item>\n          	    </ion-list>\n          	    <ion-list>\n          	    	<ion-item text-wrap>\n          	    		<div class="firstname">\n          		 		Enquiry Type \n          		 	</div>	\n          		 	<div class="details">\n          		 		Warm\n          		 	</div>\n          	    	</ion-item>\n          	    </ion-list>\n          	    <ion-list>\n          	    	<ion-item text-wrap>\n          	    		<div class="firstname">\n          		 		Client Stage \n          		 	</div>	\n          		 	<div class="details">\n          		 		Wp 100\n          		 	</div>\n          	    	</ion-item>\n          	    </ion-list>\n          	    <ion-list>\n          	    	<ion-item text-wrap>\n          	    		<div class="firstname">\n          		 		Mobile 1 \n          		 	</div>	\n          		 	<div class="details">\n          		 		+919839629561\n          		 	</div>\n          	    	</ion-item>\n          	    </ion-list>\n          	    <ion-list>\n          	    	<ion-item text-wrap>\n          	    		<div class="firstname">\n          		 		Mobile 2 \n          		 	</div>	\n          		 	<div class="details">\n          		 		+919839629561\n          		 	</div>\n          	    	</ion-item>\n          	    </ion-list>\n          	    <ion-list>\n          	    	<ion-item text-wrap>\n          	    		<div class="firstname">\n          		 		Mobile 3 \n          		 	</div>	\n          		 	<div class="details">\n          		 		+919839629561\n          		 	</div>\n          	    	</ion-item>\n          	    </ion-list>\n          	    <ion-list>\n          	    	<ion-item text-wrap>\n          	    		<div class="firstname">\n          		 		Mobile 4 \n          		 	</div>	\n          		 	<div class="details">\n          		 		+919839629561\n          		 	</div>\n          	    	</ion-item>\n          	    </ion-list>	\n          	    <ion-list>\n          	    	<ion-item text-wrap>\n          	    		<div class="firstname">\n          		 		Telefax \n          		 	</div>	\n          		 	<div class="details">\n          		 		#####\n          		 	</div>\n          	    	</ion-item>\n          	    </ion-list>\n          	    <ion-list>\n          	    	<ion-item text-wrap>\n          	    		<div class="firstname">\n          		 		EMAIL \n          		 	</div>	\n          		 	<div class="details">\n          		 		abc@gamil.com\n          		 	</div>\n          	    	</ion-item>\n          	    </ion-list>\n          	    <ion-list>\n          	    	<ion-item text-wrap>\n          	    		<div class="firstname">\n          		 		EMAIL 2 \n          		 	</div>	\n          		 	<div class="details">\n          		 		abc@gamil.com\n          		 	</div>\n          	    	</ion-item>\n          	    </ion-list>\n                    	\n         </ion-card-content>\n    </ion-card>\n</ion-content>\n'/*ion-inline-end:"C:\Users\pc\myApp\src\pages\follow-up-details\follow-up-details.html"*/,
+            selector: 'page-follow-up-details',template:/*ion-inline-start:"C:\Users\pc\myApp\src\pages\follow-up-details\follow-up-details.html"*/'<!--\n  Generated template for the FollowUpDetailsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header >\n\n  <ion-navbar color="blue">\n    <ion-title>Follow Up Details</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content>\n    <ion-card>\n          <ion-card-content>\n          	    <ion-list>\n          	    	<ion-item text-wrap class="item">\n          	    		<div class="firstname">\n          		 		Firm Name \n          		 	</div>	\n          		 	<div class="details">\n          		 		Prakashchand kirorimal rice millers\n          		 	</div>\n          	    	</ion-item>\n          	    </ion-list>	\n          	     <ion-list>\n          	    	<ion-item text-wrap>\n          	    		<div class="firstname">\n          		 		Contact Person \n          		 	</div>	\n          		 	<div class="details">\n          		 		Sandeep Tyagi\n          		 	</div>\n          	    	</ion-item>\n          	    </ion-list>	\n          	     <ion-list>\n          	    	<ion-item text-wrap>\n          	    		<div class="firstname">\n          		 		Address \n          		 	</div>	\n          		 	<div class="details">\n          		 		H-35 sector 63\n          		 	</div>\n          	    	</ion-item>\n          	    </ion-list>\n          	    <ion-list>\n          	    	<ion-item text-wrap>\n          	    		<div class="firstname">\n          		 		District \n          		 	</div>	\n          		 	<div class="details">\n          		 		Noida\n          		 	</div>\n          	    	</ion-item>\n          	    </ion-list>\n          	    <ion-list>\n          	    	<ion-item text-wrap>\n          	    		<div class="firstname">\n          		 		Pincode \n          		 	</div>	\n          		 	<div class="details">\n          		 		####\n          		 	</div>\n          	    	</ion-item>\n          	    </ion-list>\n          	    <ion-list>\n          	    	<ion-item text-wrap>\n          	    		<div class="firstname">\n          		 		Country \n          		 	</div>	\n          		 	<div class="details">\n          		 		India\n          		 	</div>\n          	    	</ion-item>\n          	    </ion-list>\n          	    <ion-list>\n          	    	<ion-item text-wrap>\n          	    		<div class="firstname">\n          		 		Enquiry Type \n          		 	</div>	\n          		 	<div class="details">\n          		 		Warm\n          		 	</div>\n          	    	</ion-item>\n          	    </ion-list>\n          	    <ion-list>\n          	    	<ion-item text-wrap>\n          	    		<div class="firstname">\n          		 		Client Stage \n          		 	</div>	\n          		 	<div class="details">\n          		 		Wp 100\n          		 	</div>\n          	    	</ion-item>\n          	    </ion-list>\n          	    <ion-list>\n          	    	<ion-item text-wrap>\n          	    		<div class="firstname">\n          		 		Mobile 1 \n          		 	</div>	\n          		 	<div class="details">\n          		 		+919839629561\n          		 	</div>\n          	    	</ion-item>\n          	    </ion-list>\n          	    <ion-list>\n          	    	<ion-item text-wrap>\n          	    		<div class="firstname">\n          		 		Mobile 2 \n          		 	</div>	\n          		 	<div class="details">\n          		 		+919839629561\n          		 	</div>\n          	    	</ion-item>\n          	    </ion-list>\n          	    <ion-list>\n          	    	<ion-item text-wrap>\n          	    		<div class="firstname">\n          		 		Mobile 3 \n          		 	</div>	\n          		 	<div class="details">\n          		 		+919839629561\n          		 	</div>\n          	    	</ion-item>\n          	    </ion-list>\n          	    <ion-list>\n          	    	<ion-item text-wrap>\n          	    		<div class="firstname">\n          		 		Mobile 4 \n          		 	</div>	\n          		 	<div class="details">\n          		 		+919839629561\n          		 	</div>\n          	    	</ion-item>\n          	    </ion-list>	\n          	    <ion-list>\n          	    	<ion-item text-wrap>\n          	    		<div class="firstname">\n          		 		Telefax \n          		 	</div>	\n          		 	<div class="details">\n          		 		#####\n          		 	</div>\n          	    	</ion-item>\n          	    </ion-list>\n          	    <ion-list>\n          	    	<ion-item text-wrap>\n          	    		<div class="firstname">\n          		 		EMAIL \n          		 	</div>	\n          		 	<div class="details">\n          		 		abc@gamil.com\n          		 	</div>\n          	    	</ion-item>\n          	    </ion-list>\n          	    <ion-list>\n          	    	<ion-item text-wrap>\n          	    		<div class="firstname">\n          		 		EMAIL 2 \n          		 	</div>	\n          		 	<div class="details">\n          		 		abc@gamil.com\n          		 	</div>\n          	    	</ion-item>\n          	    </ion-list>\n                    	\n         </ion-card-content>\n    </ion-card>\n</ion-content>\n'/*ion-inline-end:"C:\Users\pc\myApp\src\pages\follow-up-details\follow-up-details.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], FollowUpDetailsPage);
@@ -45,14 +45,14 @@ var FollowUpDetailsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 102:
+/***/ 103:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ClintPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__quotation_details_quotation_details__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__quotation_details_quotation_details__ = __webpack_require__(104);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -95,7 +95,7 @@ var ClintPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 103:
+/***/ 104:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -140,14 +140,14 @@ var QuotationDetailsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 104:
+/***/ 105:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ForgotPasswordPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__otp_otp__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__otp_otp__ = __webpack_require__(106);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -179,7 +179,7 @@ var ForgotPasswordPage = /** @class */ (function () {
     };
     ForgotPasswordPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-forgot-password',template:/*ion-inline-start:"C:\Users\pc\myApp\src\pages\forgot-password\forgot-password.html"*/'<!--\n  Generated template for the ForgotPasswordPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="blue">\n    <ion-title>Forgot Password</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n   <p>Enter your number below to receive your password reset instruction.</p>\n <ion-grid>\n 	<ion-row>\n 		<h5>Mobile Number</h5>\n 	</ion-row>	\n  <ion-row>\n    <ion-col col-5>\n    	<ion-list>\n    		<ion-item>\n    			<ion-select class="width100"  multiple="false"  okText="OK" cancelText="cancel">\n                   <ion-option value="bacon" selected="true">+91</ion-option>\n                   <ion-option value="olives">+85</ion-option>\n                   <ion-option value="xcheese">+11</ion-option>\n      </ion-select>\n    		</ion-item>	\n    	</ion-list>	\n    </ion-col>\n    <ion-col col-7>\n    	<ion-list>\n    		<ion-item>\n    			<ion-input type="text" placeholder="Username"></ion-input>\n    		</ion-item>\n    	</ion-list>\n    </ion-col>\n  </ion-row>\n</ion-grid>\n <button ion-button block (click)="otppage()">Send OTP</button>\n</ion-content>\n'/*ion-inline-end:"C:\Users\pc\myApp\src\pages\forgot-password\forgot-password.html"*/,
+            selector: 'page-forgot-password',template:/*ion-inline-start:"C:\Users\pc\myApp\src\pages\forgot-password\forgot-password.html"*/'<!--\n  Generated template for the ForgotPasswordPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="blue">\n    <ion-title>Forgot Password</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n   <p>Enter your number below to receive your password reset instruction.</p>\n <ion-grid>\n 	<ion-row>\n 		<h5>Mobile Number</h5>\n 	</ion-row>	\n  <ion-row>\n    <ion-col col-5>\n    	<ion-list>\n    		<ion-item>\n    			<ion-select class="width100"  multiple="false"  okText="OK" cancelText="cancel">\n                   <ion-option value="bacon" selected="true">+91</ion-option>\n                   <ion-option value="olives">+85</ion-option>\n                   <ion-option value="xcheese">+11</ion-option>\n      </ion-select>\n    		</ion-item>	\n    	</ion-list>	\n    </ion-col>\n    <ion-col col-7>\n    	<ion-list>\n    		<ion-item>\n    			<ion-input type="text" placeholder=""></ion-input>\n    		</ion-item>\n    	</ion-list>\n    </ion-col>\n  </ion-row>\n</ion-grid>\n <button ion-button block (click)="otppage()">Send OTP</button>\n</ion-content>\n'/*ion-inline-end:"C:\Users\pc\myApp\src\pages\forgot-password\forgot-password.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], ForgotPasswordPage);
@@ -190,14 +190,14 @@ var ForgotPasswordPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 105:
+/***/ 106:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return OtpPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__reset_password_reset_password__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__reset_password_reset_password__ = __webpack_require__(107);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -240,14 +240,14 @@ var OtpPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 106:
+/***/ 107:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ResetPasswordPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(41);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -290,7 +290,7 @@ var ResetPasswordPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 107:
+/***/ 108:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -298,8 +298,9 @@ var ResetPasswordPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__today_follow_up_today_follow_up__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__login_login__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__today_follow_up_today_follow_up__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__login_login__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_auth_service_auth_service__ = __webpack_require__(79);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -314,6 +315,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 /**
  * Generated class for the SignUpPage page.
  *
@@ -321,32 +323,50 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Ionic pages and navigation.
  */
 var SignUpPage = /** @class */ (function () {
-    function SignUpPage(formBuilder, navCtrl, navParams) {
+    function SignUpPage(formBuilder, navCtrl, navParams, authServiceProvider) {
         this.formBuilder = formBuilder;
         this.navCtrl = navCtrl;
         this.navParams = navParams;
+        this.authServiceProvider = authServiceProvider;
         this.submitted = false;
+        this.userData = { "fname": "", "lname": "", "email": "", "userid": "", "pwd": "", "usertype": "" };
         this.signupform = formBuilder.group({
-            fullname: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required],
+            fname: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required],
+            lname: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required],
             password: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required],
             countrycode: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required],
-            mobile: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required],
+            email: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required],
+            usertype: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required],
+            userid: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required],
             address: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required]
         });
-        this.fullname = this.signupform.controls['fullname'];
+        this.fname = this.signupform.controls['fname'];
+        this.lname = this.signupform.controls['lname'];
         this.password = this.signupform.controls['password'];
         this.countrycode = this.signupform.controls['countrycode'];
-        this.mobile = this.signupform.controls['mobile'];
+        this.email = this.signupform.controls['email'];
+        this.usertype = this.signupform.controls['usertype'];
+        this.userid = this.signupform.controls['userid'];
         this.address = this.signupform.controls['address'];
     }
     SignUpPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad SignUpPage');
     };
     SignUpPage.prototype.homePage = function () {
+        var _this = this;
         this.submitted = true;
         if (this.signupform.valid) {
             console.log(this.signupform.value);
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__today_follow_up_today_follow_up__["a" /* TodayFollowUpPage */]);
+            //this.navCtrl.push(TodayFollowUpPage);
+            this.authServiceProvider.postData(this.userData, "user_sign_up").then(function (result) {
+                _this.responseData = result;
+                console.log(_this.responseData);
+                localStorage.setItem('userData', JSON.stringify(_this.responseData));
+                //this.navCtrl.setRoot(TodayFollowUpPage);
+            }, function (err) {
+                //alert('connection faild');
+                _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__today_follow_up_today_follow_up__["a" /* TodayFollowUpPage */]);
+            });
         }
     };
     SignUpPage.prototype.loginPage = function () {
@@ -354,9 +374,9 @@ var SignUpPage = /** @class */ (function () {
     };
     SignUpPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-sign-up',template:/*ion-inline-start:"C:\Users\pc\myApp\src\pages\sign-up\sign-up.html"*/'<ion-header>\n   <ion-navbar color="blue">\n    <ion-title>Sign Up</ion-title>\n  </ion-navbar>\n</ion-header>\n<ion-content padding>\n    <form [formGroup]="signupform" (ngSubmit)="homePage()"> \n	<div class="profile-upload">\n		<div class="profile-area">\n			<img src="assets/imgs/profile.jpg">\n		</div>	\n    </div>\n    <div>\n    	<ion-list>\n        <ion-item>\n            <ion-label floating>Full Name</ion-label>\n            <ion-input type="text" formControlName="fullname"></ion-input>\n        </ion-item>\n        <ion-item *ngIf="fullname.hasError(\'required\') && fullname.touched">\n            <p class="red">Pls Enter your full name</p>\n          </ion-item>\n        <ion-item>\n            <ion-label floating>Password</ion-label>\n            <ion-input type="password" formControlName="password"></ion-input>\n        </ion-item>\n        <ion-item *ngIf="password.hasError(\'required\') && password.touched">\n            <p class="red">Pls create your password</p>\n          </ion-item>\n        </ion-list>\n        <ion-grid>\n        	<ion-label >Mobile Number</ion-label>\n           <ion-row>\n            <ion-col col-6>\n            	<ion-select multiple="false"  okText="OK" cancelText="cancel" formControlName="countrycode">\n                   <ion-option value="bacon" selected="true">+91</ion-option>\n                   <ion-option value="olives">+81</ion-option>\n                   <ion-option value="xcheese">+75</ion-option>\n                </ion-select>\n                <ion-item *ngIf="countrycode.hasError(\'required\') && countrycode.touched">\n                    <p class="red">Select country code</p>\n                  </ion-item>\n            </ion-col>\n            <ion-col col-6><ion-input type="number" placeholder="9839629561" formControlName="mobile"></ion-input>\n              <ion-item *ngIf="mobile.hasError(\'required\') && mobile.touched">\n                  <p class="red">enter moblie</p>\n                </ion-item>\n            </ion-col>\n            \n           </ion-row>\n        </ion-grid>\n        <ion-list>\n           <ion-item>\n            <ion-label floating>All Address</ion-label>\n            <ion-input type="text" formControlName="address"></ion-input>\n        </ion-item>\n        <ion-item *ngIf="address.hasError(\'required\') && address.touched">\n            <p class="red">enter your address</p>\n          </ion-item>\n        \n    </ion-list>\n   </div>\n     <div class="policy">\n   	  <p>By signing up, you agree all the <span><a href="#">terms and Privacy Policy</a></span></p>\n   </div>\n   <button ion-button block type="submit">Sign UP</button>\n   </form>\n</ion-content>\n<ion-footer>\n  <ion-toolbar>\n    <div class="footer-login">\n    	<p>Already have an account?<span> <a (click)="loginPage()"> Sign in</a></span></p>\n    </div> 	\n  </ion-toolbar>\n</ion-footer>\n'/*ion-inline-end:"C:\Users\pc\myApp\src\pages\sign-up\sign-up.html"*/,
+            selector: 'page-sign-up',template:/*ion-inline-start:"C:\Users\pc\myApp\src\pages\sign-up\sign-up.html"*/'<ion-header>\n   <ion-navbar color="blue">\n    <ion-title>Sign Up</ion-title>\n  </ion-navbar>\n</ion-header>\n<ion-content padding>\n\n    <div class="logo">\n        <img src="/assets/imgs/logo/login_logo.png">\n    </div>\n    <form [formGroup]="signupform" (ngSubmit)="homePage()"> \n	<!-- <div class="profile-upload">\n		<div class="profile-area">\n			<img src="assets/imgs/profile.jpg">\n		</div>	\n    </div> -->\n    <div>\n    	<ion-list>\n        <ion-item>\n            <ion-label floating>First Name</ion-label>\n            <ion-input type="text" formControlName="fname" [(ngModel)]="userData.fname"></ion-input>\n        </ion-item>\n        <p *ngIf="fname.hasError(\'required\') && fname.touched">\n            <span class="red">Pls Enter your first name</span>\n        </p>\n        <ion-item>\n          <ion-label floating>Last Name</ion-label>\n          <ion-input type="text" formControlName="lname" [(ngModel)]="userData.lname"></ion-input>\n      </ion-item>\n      <p *ngIf="lname.hasError(\'required\') && lname.touched">\n          <span class="red">Pls Enter your last name</span>\n      </p>\n       <ion-item>\n          <ion-label floating>email</ion-label>\n          <ion-input type="text" formControlName="email" [(ngModel)]="userData.email"></ion-input>\n          <p *ngIf="email.hasError(\'required\') && email.touched">\n            <span class="red">enter your email</span>\n        </p>\n        </ion-item>\n        <ion-item>\n          <ion-label floating>User ID</ion-label>\n          <ion-input type="text" formControlName="userid" [(ngModel)]="userData.userid"></ion-input>\n          <p *ngIf="address.hasError(\'required\') && address.touched">\n            <span class="red">User ID</span>\n        </p>\n        </ion-item>\n        <ion-item>\n          <ion-label floating>User Type</ion-label>\n          <ion-input type="text" formControlName="usertype" [(ngModel)]="userData.usertype"></ion-input>\n          <p *ngIf="address.hasError(\'required\') && address.touched">\n            <span class="red">usertype</span>\n        </p>\n        </ion-item>\n        <ion-item>\n          <ion-label floating>Password</ion-label>\n          <ion-input type="password" formControlName="password" [(ngModel)]="userData.pwd"></ion-input>\n      </ion-item>\n      <p *ngIf="password.hasError(\'required\') && password.touched">\n          <span class="red">Pls create your password</span>\n      </p>\n         <!-- <ion-item>\n            <ion-label floating>All Address</ion-label>\n            <ion-textarea rows="3" formControlName="address"></ion-textarea>\n        </ion-item>\n          <p *ngIf="address.hasError(\'required\') && address.touched">\n               <span class="red">enter your address</span>\n             </p>\n         -->\n    </ion-list>\n   </div>\n     <div class="policy">\n   	  <p>By signing up, you agree all the <span><a href="#">terms and Privacy Policy</a></span></p>\n   </div>\n   <button ion-button block type="submit">Sign UP</button>\n   </form>\n</ion-content>\n<ion-footer>\n  <ion-toolbar>\n    <div class="footer-login">\n    	<p>Already have an account?<span> <a (click)="loginPage()"> Sign in</a></span></p>\n    </div> 	\n  </ion-toolbar>\n</ion-footer>\n'/*ion-inline-end:"C:\Users\pc\myApp\src\pages\sign-up\sign-up.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_5__providers_auth_service_auth_service__["a" /* AuthServiceProvider */]])
     ], SignUpPage);
     return SignUpPage;
 }());
@@ -365,7 +385,7 @@ var SignUpPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 108:
+/***/ 109:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -399,7 +419,7 @@ var MyProfilePage = /** @class */ (function () {
     };
     MyProfilePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-my-profile',template:/*ion-inline-start:"C:\Users\pc\myApp\src\pages\my-profile\my-profile.html"*/'<ion-header>\n  <ion-navbar color="blue">\n\n    <ion-grid>\n      <ion-row>\n      	<ion-col col-4>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n</ion-col>\n<ion-col col-4>\n    <ion-title class="profile">Profile</ion-title>\n</ion-col>\n<ion-col col-4>\n    <button ion-button class="edit">\n    	<ion-icon name="create"></ion-icon>\n    </button>\n</ion-col>\n</ion-row>\n</ion-grid>\n    <ion-grid>\n      <ion-row>\n      	<div class="profile-box">\n         <div class="profile-pic">\n    	   <img src="assets/imgs/profile.jpg">\n         </div>\n         <h3 class="profile-name">Amit Tyagi</h3>\n     </div>\n     </ion-row>\n</ion-grid>\n    \n  </ion-navbar>\n</ion-header>\n<!-- Segment in a header -->\n<ion-content >\n<ion-card>\n  <ion-card-header>\n    PROFILE DETAILS\n  </ion-card-header>\n  <ion-grid>\n      <ion-row>\n	  <ion-list>\n		   <ion-item>\n		    <ion-avatar item-start>\n		      <img src="img/avatar-cher.png">\n		    </ion-avatar>\n		    <h2>Amit</h2>\n		    <p>User Id</p>\n		  </ion-item>\n      </ion-list>\n     </ion-row>\n     <ion-row>\n	  <ion-list>\n		   <ion-item>\n		    <ion-avatar item-start>\n		      <img src="img/avatar-cher.png">\n		    </ion-avatar>\n		    <h2>User</h2>\n		    <p>User Type</p>\n		  </ion-item>\n      </ion-list>\n     </ion-row>\n     <ion-row>\n     	<ion-col col-7>\n	  <ion-list>\n		   <ion-item>\n		    <ion-avatar item-start>\n		      <img src="img/avatar-cher.png">\n		    </ion-avatar>\n		    <h2>Tyagi</h2>\n		    <p>Last Name</p>\n		  </ion-item>\n      </ion-list>\n      </ion-col>\n      <ion-col col-5>\n	  <ion-list>\n		   <ion-item>\n		    <h2>User</h2>\n		    <p>User Type</p>\n		  </ion-item>\n      </ion-list>\n      </ion-col>\n     </ion-row>\n      <ion-row>\n	  <ion-list>\n		   <ion-item>\n		    <ion-avatar item-start>\n		      <img src="img/avatar-cher.png">\n		    </ion-avatar>\n		    <h2>Male</h2>\n		    <p>Gender</p>\n		  </ion-item>\n      </ion-list>\n     </ion-row>\n      <ion-row>\n	  <ion-list>\n		   <ion-item>\n		    <ion-avatar item-start>\n		      <img src="img/avatar-cher.png">\n		    </ion-avatar>\n		    <h2>User</h2>\n		    <p>User Type</p>\n		  </ion-item>\n      </ion-list>\n     </ion-row>\n      <ion-row>\n	  <ion-list>\n		   <ion-item>\n		    <ion-avatar item-start>\n		      <img src="img/avatar-cher.png">\n		    </ion-avatar>\n		    <h2>05-05-2018</h2>\n		    <p>Birthday</p>\n		  </ion-item>\n      </ion-list>\n     </ion-row>\n      <ion-row>\n	  <ion-list>\n		   <ion-item>\n		    <ion-avatar item-start>\n		      <img src="img/avatar-cher.png">\n		    </ion-avatar>\n		    <h2>Delhi</h2>\n		    <p>Address</p>\n		  </ion-item>\n      </ion-list>\n     </ion-row>\n      <ion-row>\n	  <ion-list>\n		   <ion-item>\n		    <ion-avatar item-start>\n		      <img src="img/avatar-cher.png">\n		    </ion-avatar>\n		    <h2>Emp</h2>\n		    <p>Occupation</p>\n		  </ion-item>\n      </ion-list>\n     </ion-row>\n      <ion-row>\n	  <ion-list>\n		   <ion-item>\n		    <ion-avatar item-start>\n		      <img src="img/avatar-cher.png">\n		    </ion-avatar>\n		    <h2>+9869629561</h2>\n		    <p>Mobile Number</p>\n		  </ion-item>\n      </ion-list>\n     </ion-row>\n     <ion-row>\n	  <ion-list>\n		   <ion-item>\n		    <ion-avatar item-start>\n		      <img src="img/avatar-cher.png">\n		    </ion-avatar>\n		    <h2>singhr495@gmail.com</h2>\n		    <p>Email</p>\n		  </ion-item>\n      </ion-list>\n     </ion-row>\n      <ion-row>\n	  <ion-list>\n		   <ion-item>\n		    <ion-avatar item-start>\n		      <img src="img/avatar-cher.png">\n		    </ion-avatar>\n		    <h2>My Name is Ranjeet Singh</h2>\n		    <p>About</p>\n		  </ion-item>\n      </ion-list>\n     </ion-row>\n   </ion-grid>\n</ion-card>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\pc\myApp\src\pages\my-profile\my-profile.html"*/,
+            selector: 'page-my-profile',template:/*ion-inline-start:"C:\Users\pc\myApp\src\pages\my-profile\my-profile.html"*/'<ion-header>\n  <ion-navbar color="blue">\n\n    <ion-grid>\n      <ion-row>\n      	<ion-col col-4>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n</ion-col>\n<ion-col col-4>\n    <ion-title class="profile">Profile</ion-title>\n</ion-col>\n<ion-col col-4>\n    <button ion-button class="edit">\n    	<ion-icon name="create"></ion-icon>\n    </button>\n</ion-col>\n</ion-row>\n</ion-grid>\n    <ion-grid>\n      <ion-row>\n      	<div class="profile-box">\n         <div class="profile-pic">\n    	   <img src="assets/imgs/profile.jpg">\n         </div>\n         <h3 class="profile-name">Amit Tyagi</h3>\n     </div>\n     </ion-row>\n</ion-grid>\n    \n  </ion-navbar>\n</ion-header>\n<!-- Segment in a header -->\n<ion-content >\n<ion-card>\n  <ion-card-header>\n    PROFILE DETAILS\n  </ion-card-header>\n  <ion-grid>\n      <ion-row>\n	  <ion-list>\n		   <ion-item>\n		    <ion-avatar item-start>\n		      <img class="img-icon" src="assets/imgs/icons/default_user_id.png">\n		    </ion-avatar>\n		    <h2>Amit</h2>\n		    <p>User Id</p>\n		  </ion-item>\n      </ion-list>\n     </ion-row>\n     <ion-row>\n	  <ion-list>\n		   <ion-item>\n		    <ion-avatar item-start>\n		      <img class="img-icon" src="assets/imgs/icons/default_user_types.png">\n		    </ion-avatar>\n		    <h2>User</h2>\n		    <p>User Type</p>\n		  </ion-item>\n      </ion-list>\n     </ion-row>\n     <ion-row>\n     	<ion-col col-7>\n	  <ion-list>\n		   <ion-item>\n		    <ion-avatar item-start>\n		      <img class="img-icon" src="assets/imgs/icons/default_mobile.png">\n		    </ion-avatar>\n		    <h2>Amit</h2>\n		    <p>First Name</p>\n		  </ion-item>\n      </ion-list>\n      </ion-col>\n      <ion-col col-5>\n	  <ion-list>\n		   <ion-item>\n		    <h2>Tyagi</h2>\n		    <p>Last Name</p>\n		  </ion-item>\n      </ion-list>\n      </ion-col>\n     </ion-row>\n      <ion-row>\n	  <ion-list>\n		   <ion-item>\n		    <ion-avatar item-start>\n		      <img class="img-icon" src="assets/imgs/icons/default_gender.png">\n		    </ion-avatar>\n		    <h2>Male</h2>\n		    <p>Gender</p>\n		  </ion-item>\n      </ion-list>\n     </ion-row>\n      <ion-row>\n	  <ion-list>\n		   <ion-item>\n		    <ion-avatar item-start>\n		      <img class="img-icon" src="assets/imgs/icons/default_dob.png">\n		    </ion-avatar>\n		    <h2>05-05-2018</h2>\n		    <p>Birthday</p>\n		  </ion-item>\n      </ion-list>\n     </ion-row>\n      <ion-row>\n	  <ion-list>\n		   <ion-item>\n		    <ion-avatar item-start>\n		      <img class="img-icon" src="assets/imgs/icons/default_location.png">\n		    </ion-avatar>\n		    <h2>Delhi</h2>\n		    <p>Address</p>\n		  </ion-item>\n      </ion-list>\n     </ion-row>\n      <ion-row>\n	  <ion-list>\n		   <ion-item>\n		    <ion-avatar item-start>\n		      <img class="img-icon" src="assets/imgs/icons/default_occupation.png">\n		    </ion-avatar>\n		    <h2>Emp</h2>\n		    <p>Occupation</p>\n		  </ion-item>\n      </ion-list>\n     </ion-row>\n      <ion-row>\n	  <ion-list>\n		   <ion-item>\n		    <ion-avatar item-start>\n		      <img class="img-icon" src="assets/imgs/icons/default_location.png">\n		    </ion-avatar>\n		    <h2>+9869629561</h2>\n		    <p>Mobile Number</p>\n		  </ion-item>\n      </ion-list>\n     </ion-row>\n     <ion-row>\n	  <ion-list>\n		   <ion-item>\n		    <ion-avatar item-start>\n		      <img class="img-icon" src="assets/imgs/icons/default_email.png">\n		    </ion-avatar>\n		    <h2>singhr495@gmail.com</h2>\n		    <p>Email</p>\n		  </ion-item>\n      </ion-list>\n     </ion-row>\n      <ion-row>\n	  <ion-list>\n		   <ion-item>\n		    <ion-avatar item-start>\n		      <img class="img-icon" src="assets/imgs/icons/default_info.png">\n		    </ion-avatar>\n		    <h2>My Name is Ranjeet Singh</h2>\n		    <p>About</p>\n		  </ion-item>\n      </ion-list>\n     </ion-row>\n   </ion-grid>\n</ion-card>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\pc\myApp\src\pages\my-profile\my-profile.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], MyProfilePage);
@@ -410,7 +430,7 @@ var MyProfilePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 109:
+/***/ 110:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -455,7 +475,7 @@ var ReportPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 110:
+/***/ 111:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -500,7 +520,7 @@ var SearchClientPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 111:
+/***/ 112:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -545,7 +565,7 @@ var SendSmsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 121:
+/***/ 124:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -558,68 +578,68 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 121;
+webpackEmptyAsyncContext.id = 124;
 
 /***/ }),
 
-/***/ 162:
+/***/ 166:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"../pages/clint/clint.module": [
-		283,
+		290,
 		13
 	],
 	"../pages/follow-up-details/follow-up-details.module": [
-		285,
+		291,
 		12
 	],
 	"../pages/forgot-password/forgot-password.module": [
-		284,
+		292,
 		11
 	],
 	"../pages/login/login.module": [
-		292,
+		293,
 		10
 	],
 	"../pages/my-profile/my-profile.module": [
-		286,
+		294,
 		9
 	],
 	"../pages/otp/otp.module": [
-		287,
+		295,
 		8
 	],
 	"../pages/quotation-details/quotation-details.module": [
-		291,
+		296,
 		7
 	],
 	"../pages/report/report.module": [
-		288,
+		297,
 		6
 	],
 	"../pages/reset-password/reset-password.module": [
-		296,
+		298,
 		5
 	],
 	"../pages/search-client/search-client.module": [
-		289,
+		299,
 		4
 	],
 	"../pages/send-sms/send-sms.module": [
-		290,
+		300,
 		3
 	],
 	"../pages/sign-up/sign-up.module": [
-		295,
+		301,
 		2
 	],
 	"../pages/today-follow-up/today-follow-up.module": [
-		294,
+		302,
 		1
 	],
 	"../pages/visit-details/visit-details.module": [
-		293,
+		303,
 		0
 	]
 };
@@ -634,12 +654,246 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 162;
+webpackAsyncContext.id = 166;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 206:
+/***/ 211:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(232);
+
+
+Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 232:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_auth_service_auth_service__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_common_http__ = __webpack_require__(167);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(279);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(288);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_list_list__ = __webpack_require__(289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_today_follow_up_today_follow_up__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_follow_up_details_follow_up_details__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_clint_clint__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_search_client_search_client__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_send_sms_send_sms__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_report_report__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_quotation_details_quotation_details__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_my_profile_my_profile__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_login_login__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_sign_up_sign_up__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_forgot_password_forgot_password__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_otp_otp__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_reset_password_reset_password__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__ionic_native_status_bar__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__ionic_native_splash_screen__ = __webpack_require__(210);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var AppModule = /** @class */ (function () {
+    function AppModule() {
+    }
+    AppModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_home_home__["a" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_7__pages_list_list__["a" /* ListPage */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_today_follow_up_today_follow_up__["a" /* TodayFollowUpPage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_follow_up_details_follow_up_details__["a" /* FollowUpDetailsPage */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_clint_clint__["a" /* ClintPage */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_search_client_search_client__["a" /* SearchClientPage */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_send_sms_send_sms__["a" /* SendSmsPage */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_report_report__["a" /* ReportPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_quotation_details_quotation_details__["a" /* QuotationDetailsPage */],
+                __WEBPACK_IMPORTED_MODULE_15__pages_my_profile_my_profile__["a" /* MyProfilePage */],
+                __WEBPACK_IMPORTED_MODULE_16__pages_login_login__["a" /* LoginPage */],
+                __WEBPACK_IMPORTED_MODULE_17__pages_sign_up_sign_up__["a" /* SignUpPage */],
+                __WEBPACK_IMPORTED_MODULE_18__pages_forgot_password_forgot_password__["a" /* ForgotPasswordPage */],
+                __WEBPACK_IMPORTED_MODULE_19__pages_otp_otp__["a" /* OtpPage */],
+                __WEBPACK_IMPORTED_MODULE_20__pages_reset_password_reset_password__["a" /* ResetPasswordPage */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */], __WEBPACK_IMPORTED_MODULE_4__angular_common_http__["b" /* HttpClientModule */],
+                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */], {}, {
+                    links: [
+                        { loadChildren: '../pages/clint/clint.module#ClintPageModule', name: 'ClintPage', segment: 'clint', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/follow-up-details/follow-up-details.module#FollowUpDetailsPageModule', name: 'FollowUpDetailsPage', segment: 'follow-up-details', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/forgot-password/forgot-password.module#ForgotPasswordPageModule', name: 'ForgotPasswordPage', segment: 'forgot-password', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/my-profile/my-profile.module#MyProfilePageModule', name: 'MyProfilePage', segment: 'my-profile', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/otp/otp.module#OtpPageModule', name: 'OtpPage', segment: 'otp', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/quotation-details/quotation-details.module#QuotationDetailsPageModule', name: 'QuotationDetailsPage', segment: 'quotation-details', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/report/report.module#ReportPageModule', name: 'ReportPage', segment: 'report', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/reset-password/reset-password.module#ResetPasswordPageModule', name: 'ResetPasswordPage', segment: 'reset-password', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/search-client/search-client.module#SearchClientPageModule', name: 'SearchClientPage', segment: 'search-client', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/send-sms/send-sms.module#SendSmsPageModule', name: 'SendSmsPage', segment: 'send-sms', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/sign-up/sign-up.module#SignUpPageModule', name: 'SignUpPage', segment: 'sign-up', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/today-follow-up/today-follow-up.module#TodayFollowUpPageModule', name: 'TodayFollowUpPage', segment: 'today-follow-up', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/visit-details/visit-details.module#VisitDetailsPageModule', name: 'VisitDetailsPage', segment: 'visit-details', priority: 'low', defaultHistory: [] }
+                    ]
+                }),
+            ],
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* IonicApp */]],
+            entryComponents: [
+                __WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_home_home__["a" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_7__pages_list_list__["a" /* ListPage */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_today_follow_up_today_follow_up__["a" /* TodayFollowUpPage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_follow_up_details_follow_up_details__["a" /* FollowUpDetailsPage */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_clint_clint__["a" /* ClintPage */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_search_client_search_client__["a" /* SearchClientPage */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_send_sms_send_sms__["a" /* SendSmsPage */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_report_report__["a" /* ReportPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_quotation_details_quotation_details__["a" /* QuotationDetailsPage */],
+                __WEBPACK_IMPORTED_MODULE_15__pages_my_profile_my_profile__["a" /* MyProfilePage */],
+                __WEBPACK_IMPORTED_MODULE_16__pages_login_login__["a" /* LoginPage */],
+                __WEBPACK_IMPORTED_MODULE_17__pages_sign_up_sign_up__["a" /* SignUpPage */],
+                __WEBPACK_IMPORTED_MODULE_18__pages_forgot_password_forgot_password__["a" /* ForgotPasswordPage */],
+                __WEBPACK_IMPORTED_MODULE_19__pages_otp_otp__["a" /* OtpPage */],
+                __WEBPACK_IMPORTED_MODULE_20__pages_reset_password_reset_password__["a" /* ResetPasswordPage */]
+            ],
+            providers: [
+                __WEBPACK_IMPORTED_MODULE_21__ionic_native_status_bar__["a" /* StatusBar */],
+                __WEBPACK_IMPORTED_MODULE_22__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_3__providers_auth_service_auth_service__["a" /* AuthServiceProvider */],
+                { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicErrorHandler */] }
+            ]
+        })
+    ], AppModule);
+    return AppModule;
+}());
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 279:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_today_follow_up_today_follow_up__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_clint_clint__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_search_client_search_client__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_send_sms_send_sms__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_report_report__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_my_profile_my_profile__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_login_login__ = __webpack_require__(41);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+var MyApp = /** @class */ (function () {
+    function MyApp(platform, statusBar, splashScreen) {
+        this.platform = platform;
+        this.statusBar = statusBar;
+        this.splashScreen = splashScreen;
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_10__pages_login_login__["a" /* LoginPage */];
+        this.initializeApp();
+        // used for an example of ngFor and navigation
+        this.pages = [
+            { title: 'Home', component: __WEBPACK_IMPORTED_MODULE_4__pages_today_follow_up_today_follow_up__["a" /* TodayFollowUpPage */] },
+            { title: 'My Profile', component: __WEBPACK_IMPORTED_MODULE_9__pages_my_profile_my_profile__["a" /* MyProfilePage */] },
+            { title: 'Client Enquiry', component: __WEBPACK_IMPORTED_MODULE_5__pages_clint_clint__["a" /* ClintPage */] },
+            { title: 'Search Clients', component: __WEBPACK_IMPORTED_MODULE_6__pages_search_client_search_client__["a" /* SearchClientPage */] },
+            { title: 'Today Follow Up', component: __WEBPACK_IMPORTED_MODULE_4__pages_today_follow_up_today_follow_up__["a" /* TodayFollowUpPage */] },
+            { title: 'Report', component: __WEBPACK_IMPORTED_MODULE_8__pages_report_report__["a" /* ReportPage */] },
+            { title: 'Email/Sms', component: __WEBPACK_IMPORTED_MODULE_7__pages_send_sms_send_sms__["a" /* SendSmsPage */] },
+            //{ title: 'Setting', component: SearchClientPage },
+            { title: 'Logout', component: __WEBPACK_IMPORTED_MODULE_10__pages_login_login__["a" /* LoginPage */] }
+        ];
+    }
+    MyApp.prototype.initializeApp = function () {
+        var _this = this;
+        this.platform.ready().then(function () {
+            // Okay, so the platform is ready and our plugins are available.
+            // Here you can do any higher level native things you might need.
+            _this.statusBar.styleDefault();
+            _this.splashScreen.hide();
+        });
+    };
+    MyApp.prototype.openPage = function (page) {
+        // Reset the content nav to have just this page
+        // we wouldn't want the back button to show in this scenario
+        this.nav.setRoot(page.component);
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */])
+    ], MyApp.prototype, "nav", void 0);
+    MyApp = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\pc\myApp\src\app\app.html"*/'<ion-menu [content]="content">\n  <ion-header>\n    <ion-toolbar>\n      <ion-title>Menu</ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-content >\n    <ion-list>\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n        {{p.title}}\n      </button>\n    </ion-list>\n  </ion-content>\n\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"C:\Users\pc\myApp\src\app\app.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+    ], MyApp);
+    return MyApp;
+}());
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 288:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -685,7 +939,7 @@ var HomePage = /** @class */ (function () {
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"C:\Users\pc\myApp\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar color="blue">\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Home</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding class="login-background">\n\n       dfhg\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\pc\myApp\src\pages\home\home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"C:\Users\pc\myApp\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar color="blue">\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Home</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding class="login-background">\n\n       \n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\pc\myApp\src\pages\home\home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], HomePage);
@@ -696,238 +950,7 @@ var HomePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 207:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(208);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(230);
-
-
-Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
-//# sourceMappingURL=main.js.map
-
-/***/ }),
-
-/***/ 230:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(273);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(206);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(282);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_today_follow_up_today_follow_up__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_follow_up_details_follow_up_details__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_clint_clint__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_search_client_search_client__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_send_sms_send_sms__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_report_report__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_quotation_details_quotation_details__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_my_profile_my_profile__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_login_login__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_sign_up_sign_up__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_forgot_password_forgot_password__ = __webpack_require__(104);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_otp_otp__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_reset_password_reset_password__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__ionic_native_status_bar__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__ionic_native_splash_screen__ = __webpack_require__(205);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-var AppModule = /** @class */ (function () {
-    function AppModule() {
-    }
-    AppModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["I" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
-                __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */],
-                __WEBPACK_IMPORTED_MODULE_5__pages_list_list__["a" /* ListPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_today_follow_up_today_follow_up__["a" /* TodayFollowUpPage */],
-                __WEBPACK_IMPORTED_MODULE_7__pages_follow_up_details_follow_up_details__["a" /* FollowUpDetailsPage */],
-                __WEBPACK_IMPORTED_MODULE_8__pages_clint_clint__["a" /* ClintPage */],
-                __WEBPACK_IMPORTED_MODULE_9__pages_search_client_search_client__["a" /* SearchClientPage */],
-                __WEBPACK_IMPORTED_MODULE_10__pages_send_sms_send_sms__["a" /* SendSmsPage */],
-                __WEBPACK_IMPORTED_MODULE_11__pages_report_report__["a" /* ReportPage */],
-                __WEBPACK_IMPORTED_MODULE_12__pages_quotation_details_quotation_details__["a" /* QuotationDetailsPage */],
-                __WEBPACK_IMPORTED_MODULE_13__pages_my_profile_my_profile__["a" /* MyProfilePage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_login_login__["a" /* LoginPage */],
-                __WEBPACK_IMPORTED_MODULE_15__pages_sign_up_sign_up__["a" /* SignUpPage */],
-                __WEBPACK_IMPORTED_MODULE_16__pages_forgot_password_forgot_password__["a" /* ForgotPasswordPage */],
-                __WEBPACK_IMPORTED_MODULE_17__pages_otp_otp__["a" /* OtpPage */],
-                __WEBPACK_IMPORTED_MODULE_18__pages_reset_password_reset_password__["a" /* ResetPasswordPage */]
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
-                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
-                    links: [
-                        { loadChildren: '../pages/clint/clint.module#ClintPageModule', name: 'ClintPage', segment: 'clint', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/forgot-password/forgot-password.module#ForgotPasswordPageModule', name: 'ForgotPasswordPage', segment: 'forgot-password', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/follow-up-details/follow-up-details.module#FollowUpDetailsPageModule', name: 'FollowUpDetailsPage', segment: 'follow-up-details', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/my-profile/my-profile.module#MyProfilePageModule', name: 'MyProfilePage', segment: 'my-profile', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/otp/otp.module#OtpPageModule', name: 'OtpPage', segment: 'otp', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/report/report.module#ReportPageModule', name: 'ReportPage', segment: 'report', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/search-client/search-client.module#SearchClientPageModule', name: 'SearchClientPage', segment: 'search-client', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/send-sms/send-sms.module#SendSmsPageModule', name: 'SendSmsPage', segment: 'send-sms', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/quotation-details/quotation-details.module#QuotationDetailsPageModule', name: 'QuotationDetailsPage', segment: 'quotation-details', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/visit-details/visit-details.module#VisitDetailsPageModule', name: 'VisitDetailsPage', segment: 'visit-details', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/today-follow-up/today-follow-up.module#TodayFollowUpPageModule', name: 'TodayFollowUpPage', segment: 'today-follow-up', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/sign-up/sign-up.module#SignUpPageModule', name: 'SignUpPage', segment: 'sign-up', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/reset-password/reset-password.module#ResetPasswordPageModule', name: 'ResetPasswordPage', segment: 'reset-password', priority: 'low', defaultHistory: [] }
-                    ]
-                }),
-            ],
-            bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* IonicApp */]],
-            entryComponents: [
-                __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
-                __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */],
-                __WEBPACK_IMPORTED_MODULE_5__pages_list_list__["a" /* ListPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_today_follow_up_today_follow_up__["a" /* TodayFollowUpPage */],
-                __WEBPACK_IMPORTED_MODULE_7__pages_follow_up_details_follow_up_details__["a" /* FollowUpDetailsPage */],
-                __WEBPACK_IMPORTED_MODULE_8__pages_clint_clint__["a" /* ClintPage */],
-                __WEBPACK_IMPORTED_MODULE_9__pages_search_client_search_client__["a" /* SearchClientPage */],
-                __WEBPACK_IMPORTED_MODULE_10__pages_send_sms_send_sms__["a" /* SendSmsPage */],
-                __WEBPACK_IMPORTED_MODULE_11__pages_report_report__["a" /* ReportPage */],
-                __WEBPACK_IMPORTED_MODULE_12__pages_quotation_details_quotation_details__["a" /* QuotationDetailsPage */],
-                __WEBPACK_IMPORTED_MODULE_13__pages_my_profile_my_profile__["a" /* MyProfilePage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_login_login__["a" /* LoginPage */],
-                __WEBPACK_IMPORTED_MODULE_15__pages_sign_up_sign_up__["a" /* SignUpPage */],
-                __WEBPACK_IMPORTED_MODULE_16__pages_forgot_password_forgot_password__["a" /* ForgotPasswordPage */],
-                __WEBPACK_IMPORTED_MODULE_17__pages_otp_otp__["a" /* OtpPage */],
-                __WEBPACK_IMPORTED_MODULE_18__pages_reset_password_reset_password__["a" /* ResetPasswordPage */]
-            ],
-            providers: [
-                __WEBPACK_IMPORTED_MODULE_19__ionic_native_status_bar__["a" /* StatusBar */],
-                __WEBPACK_IMPORTED_MODULE_20__ionic_native_splash_screen__["a" /* SplashScreen */],
-                { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicErrorHandler */] }
-            ]
-        })
-    ], AppModule);
-    return AppModule;
-}());
-
-//# sourceMappingURL=app.module.js.map
-
-/***/ }),
-
-/***/ 273:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(205);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(206);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_today_follow_up_today_follow_up__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_clint_clint__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_search_client_search_client__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_send_sms_send_sms__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_report_report__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_my_profile_my_profile__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_login_login__ = __webpack_require__(40);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-
-
-
-
-
-
-var MyApp = /** @class */ (function () {
-    function MyApp(platform, statusBar, splashScreen) {
-        this.platform = platform;
-        this.statusBar = statusBar;
-        this.splashScreen = splashScreen;
-        this.rootPage = __WEBPACK_IMPORTED_MODULE_11__pages_login_login__["a" /* LoginPage */];
-        this.initializeApp();
-        // used for an example of ngFor and navigation
-        this.pages = [
-            { title: 'Home', component: __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */] },
-            { title: 'My Profile', component: __WEBPACK_IMPORTED_MODULE_10__pages_my_profile_my_profile__["a" /* MyProfilePage */] },
-            { title: 'Client Enquiry', component: __WEBPACK_IMPORTED_MODULE_6__pages_clint_clint__["a" /* ClintPage */] },
-            { title: 'Search Clients', component: __WEBPACK_IMPORTED_MODULE_7__pages_search_client_search_client__["a" /* SearchClientPage */] },
-            { title: 'Today Follow Up', component: __WEBPACK_IMPORTED_MODULE_5__pages_today_follow_up_today_follow_up__["a" /* TodayFollowUpPage */] },
-            { title: 'Report', component: __WEBPACK_IMPORTED_MODULE_9__pages_report_report__["a" /* ReportPage */] },
-            { title: 'Email/Sms', component: __WEBPACK_IMPORTED_MODULE_8__pages_send_sms_send_sms__["a" /* SendSmsPage */] },
-            { title: 'Setting', component: __WEBPACK_IMPORTED_MODULE_7__pages_search_client_search_client__["a" /* SearchClientPage */] }
-        ];
-    }
-    MyApp.prototype.initializeApp = function () {
-        var _this = this;
-        this.platform.ready().then(function () {
-            // Okay, so the platform is ready and our plugins are available.
-            // Here you can do any higher level native things you might need.
-            _this.statusBar.styleDefault();
-            _this.splashScreen.hide();
-        });
-    };
-    MyApp.prototype.openPage = function (page) {
-        // Reset the content nav to have just this page
-        // we wouldn't want the back button to show in this scenario
-        this.nav.setRoot(page.component);
-    };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */])
-    ], MyApp.prototype, "nav", void 0);
-    MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\pc\myApp\src\app\app.html"*/'<ion-menu [content]="content">\n  <ion-header>\n    <ion-toolbar>\n      <ion-title>Menu</ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-content >\n    <ion-list>\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n        {{p.title}}\n      </button>\n    </ion-list>\n  </ion-content>\n\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"C:\Users\pc\myApp\src\app\app.html"*/
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
-    ], MyApp);
-    return MyApp;
-}());
-
-//# sourceMappingURL=app.component.js.map
-
-/***/ }),
-
-/***/ 282:
+/***/ 289:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -984,7 +1007,7 @@ var ListPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 40:
+/***/ 41:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -992,9 +1015,10 @@ var ListPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__today_follow_up_today_follow_up__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__sign_up_sign_up__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__forgot_password_forgot_password__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__today_follow_up_today_follow_up__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__sign_up_sign_up__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__forgot_password_forgot_password__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_auth_service_auth_service__ = __webpack_require__(79);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1010,6 +1034,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 /**
  * Generated class for the LoginPage page.
  *
@@ -1017,26 +1042,37 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Ionic pages and navigation.
  */
 var LoginPage = /** @class */ (function () {
-    function LoginPage(formBuilder, navCtrl, navParams) {
+    function LoginPage(formBuilder, navCtrl, navParams, authServiceProvider) {
         this.formBuilder = formBuilder;
         this.navCtrl = navCtrl;
         this.navParams = navParams;
+        this.authServiceProvider = authServiceProvider;
         this.submitted = false;
+        this.logData = { "userid": "", "pwd": "" };
         this.mygroup = formBuilder.group({
-            email: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required],
+            userid: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required],
             password: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required]
         });
-        this.email = this.mygroup.controls['email'];
+        this.userid = this.mygroup.controls['userid'];
         this.password = this.mygroup.controls['password'];
     }
     LoginPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad LoginPage');
     };
     LoginPage.prototype.homePage = function () {
+        var _this = this;
         this.submitted = true;
         if (this.mygroup.valid) {
             console.log(this.mygroup.value);
-            this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__today_follow_up_today_follow_up__["a" /* TodayFollowUpPage */]);
+            //this.navCtrl.setRoot(TodayFollowUpPage)
+            this.authServiceProvider.loginData(this.logData, "user_login").then(function (result) {
+                _this.responseData = result;
+                console.log(_this.responseData);
+                localStorage.setItem('logData', JSON.stringify(_this.responseData));
+                //this.navCtrl.setRoot(TodayFollowUpPage);
+            }, function (err) {
+                _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__today_follow_up_today_follow_up__["a" /* TodayFollowUpPage */]);
+            });
         }
     };
     LoginPage.prototype.signUp = function () {
@@ -1047,26 +1083,25 @@ var LoginPage = /** @class */ (function () {
     };
     LoginPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-login',template:/*ion-inline-start:"C:\Users\pc\myApp\src\pages\login\login.html"*/'<ion-header>\n\n\n\n  <ion-navbar color="blue">\n\n    <ion-title>Login</ion-title>\n\n  </ion-navbar>\n\n \n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n   <div class="logo">\n\n   	  <img src="/assets/imgs/logo/login_logo.png">\n\n   </div>\n\n   <form [formGroup]="mygroup" (ngSubmit)="homePage()">\n\n   <div class="login-form">\n\n   	  <ion-list>\n\n\n\n  <ion-item>\n\n    <ion-label floating><span><ion-icon name="mail"></ion-icon></span> Email</ion-label>\n\n    <ion-input type="text" formControlName="email"></ion-input>\n\n  </ion-item>\n\n  <ion-item *ngIf="email.hasError(\'required\') && email.touched">\n\n    <p class="red">Pls Enter your email address</p>\n\n  </ion-item>\n\n  <ion-item>\n\n  	 \n\n     <ion-label floating><span><ion-icon name="lock"></ion-icon></span> Password</ion-label>\n\n    <ion-input type="password" formControlName="password"></ion-input>\n\n  </ion-item>\n\n  <ion-item *ngIf="password.hasError(\'required\') && password.touched">\n\n    <p class="red">Pls Enter your password</p>\n\n  </ion-item>\n\n</ion-list>\n\n   </div>\n\n   <div class="remember">\n\n   	<ion-list>\n\n   	<ion-item>\n\n   	<ion-label>Remember me</ion-label>\n\n    <ion-checkbox class="checkbox-margin" required></ion-checkbox>\n\n</ion-item>\n\n</ion-list>\n\n   </div>\n\n   <button  type="submit" ion-button block >LOG IN</button>\n\n   <div class="forgot-password">\n\n   	  <a href="#" (click)="forgotPass()">Forgot Password?</a>\n\n   </div>\n\n </form>\n\n</ion-content>\n\n<ion-footer>\n\n  <ion-toolbar>\n\n    <div class="footer-login">\n\n    	<p>Don\'t have account?<span> <a (click)="signUp()"> Sign Up</a></span></p>\n\n    </div> 	\n\n  </ion-toolbar>\n\n</ion-footer>\n\n '/*ion-inline-end:"C:\Users\pc\myApp\src\pages\login\login.html"*/,
+            selector: 'page-login',template:/*ion-inline-start:"C:\Users\pc\myApp\src\pages\login\login.html"*/'<ion-header>\n\n\n\n  <ion-navbar color="blue">\n\n    <ion-title>Login</ion-title>\n\n  </ion-navbar>\n\n \n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n   <div class="logo">\n\n   	  <img src="/assets/imgs/logo/login_logo.png">\n\n   </div>\n\n   <form [formGroup]="mygroup" (ngSubmit)="homePage()">\n\n   <div class="login-form">\n\n   	  <ion-list>\n\n\n\n  <ion-item>\n\n    <ion-label floating><span><ion-icon name="person"></ion-icon></span> User Id</ion-label>\n\n    <ion-input type="text" formControlName="userid" [(ngModel)]="logData.userid"></ion-input>\n\n  </ion-item>\n\n  <p *ngIf="userid.hasError(\'required\') && userid.touched">\n\n    <span class="red">Pls Enter your User Id</span>\n\n  </p>\n\n  <ion-item>\n\n  	 \n\n     <ion-label floating><span><ion-icon name="lock"></ion-icon></span> Password</ion-label>\n\n    <ion-input type="password" formControlName="password" [(ngModel)]="logData.pwd"></ion-input>\n\n  </ion-item>\n\n  <p *ngIf="password.hasError(\'required\') && password.touched">\n\n    <span class="red">Pls Enter your password</span>\n\n  </p>\n\n</ion-list>\n\n   </div>\n\n   <div class="remember">\n\n   	<ion-list>\n\n   	<ion-item>\n\n   	<ion-label>Remember me</ion-label>\n\n    <ion-checkbox class="checkbox-margin" required></ion-checkbox>\n\n</ion-item>\n\n</ion-list>\n\n   </div>\n\n   <button   type="submit" ion-button block >LOG IN</button>\n\n   <div class="forgot-password">\n\n   	  <a href="#"  (click)="forgotPass()">Forgot Password?</a>\n\n   </div>\n\n </form>\n\n</ion-content>\n\n<ion-footer>\n\n  <ion-toolbar>\n\n    <div class="footer-login">\n\n    	<p>Don\'t have account?<span> <a (click)="signUp()"> Sign Up</a></span></p>\n\n    </div> 	\n\n  </ion-toolbar>\n\n</ion-footer>\n\n '/*ion-inline-end:"C:\Users\pc\myApp\src\pages\login\login.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _c || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_6__providers_auth_service_auth_service__["a" /* AuthServiceProvider */]])
     ], LoginPage);
     return LoginPage;
-    var _a, _b, _c;
 }());
 
 //# sourceMappingURL=login.js.map
 
 /***/ }),
 
-/***/ 41:
+/***/ 42:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TodayFollowUpPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__follow_up_details_follow_up_details__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__follow_up_details_follow_up_details__ = __webpack_require__(102);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1098,7 +1133,7 @@ var TodayFollowUpPage = /** @class */ (function () {
     };
     TodayFollowUpPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-today-follow-up',template:/*ion-inline-start:"C:\Users\pc\myApp\src\pages\today-follow-up\today-follow-up.html"*/'<ion-header>\n       <ion-navbar color="blue">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Today Follow Up</ion-title>\n  </ion-navbar>	\n\n</ion-header>\n\n\n<ion-content padding>\n	 <ion-card (click)="nextPage()">\n         <ion-list>\n		    <button ion-item>\n		      <ion-icon name="ios-arrow-forward" class="position-right"></ion-icon>\n		      <div class="card-title">Firm Name</div>\n		      <div class="card-subtitle">Prakashchand kirorimal rice millers</div>\n		    </button>\n		  </ion-list>\n   </ion-card>\n    <ion-card (click)="nextPage()">\n         <ion-list>\n		    <button ion-item>\n		      <ion-icon name="ios-arrow-forward" class="position-right"></ion-icon>\n		      <div class="card-title">Firm Name</div>\n		      <div class="card-subtitle">Aggarwal Rice Mill</div>\n		    </button>\n		  </ion-list>\n   </ion-card>\n    <ion-card (click)="nextPage()">\n         <ion-list>\n		    <button ion-item>\n		      <ion-icon name="ios-arrow-forward" class="position-right"></ion-icon>\n		      <div class="card-title">Firm Name</div>\n		      <div class="card-subtitle">Prakashchand kirorimal rice millers</div>\n		    </button>\n		  </ion-list>\n   </ion-card>\n   <ion-card (click)="nextPage()">\n         <ion-list>\n		    <button ion-item>\n		      <ion-icon name="ios-arrow-forward" class="position-right"></ion-icon>\n		      <div class="card-title">Firm Name</div>\n		      <div class="card-subtitle">Prakashchand kirorimal rice millers</div>\n		    </button>\n		  </ion-list>\n   </ion-card>\n   <ion-card (click)="nextPage()">\n         <ion-list>\n		    <button ion-item>\n		      <ion-icon name="ios-arrow-forward" class="position-right"></ion-icon>\n		      <div class="card-title">Firm Name</div>\n		      <div class="card-subtitle">Prakashchand kirorimal rice millers</div>\n		    </button>\n		  </ion-list>\n   </ion-card>\n   <ion-card (click)="nextPage()">\n         <ion-list>\n		    <button ion-item>\n		      <ion-icon name="ios-arrow-forward" class="position-right"></ion-icon>\n		      <div class="card-title">Firm Name</div>\n		      <div class="card-subtitle">Prakashchand kirorimal rice millers</div>\n		    </button>\n		  </ion-list>\n   </ion-card>\n   <ion-card (click)="nextPage()">\n         <ion-list>\n		    <button ion-item>\n		      <ion-icon name="ios-arrow-forward" class="position-right"></ion-icon>\n		      <div class="card-title">Firm Name</div>\n		      <div class="card-subtitle">Prakashchand kirorimal rice millers</div>\n		    </button>\n		  </ion-list>\n   </ion-card>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\pc\myApp\src\pages\today-follow-up\today-follow-up.html"*/,
+            selector: 'page-today-follow-up',template:/*ion-inline-start:"C:\Users\pc\myApp\src\pages\today-follow-up\today-follow-up.html"*/'<ion-header>\n       <ion-navbar color="blue">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Today Follow Up</ion-title>\n  </ion-navbar>	\n\n</ion-header>\n\n\n<ion-content>\n	 <ion-card (click)="nextPage()">\n         <ion-list>\n		    <button ion-item>\n		      <ion-icon name="ios-arrow-forward" class="position-right"></ion-icon>\n		      <div class="card-title">Firm Name</div>\n		      <div class="card-subtitle">Prakashchand kirorimal rice millers</div>\n		    </button>\n		  </ion-list>\n   </ion-card>\n    <ion-card (click)="nextPage()">\n         <ion-list>\n		    <button ion-item>\n		      <ion-icon name="ios-arrow-forward" class="position-right"></ion-icon>\n		      <div class="card-title">Firm Name</div>\n		      <div class="card-subtitle">Aggarwal Rice Mill</div>\n		    </button>\n		  </ion-list>\n   </ion-card>\n    <ion-card (click)="nextPage()">\n         <ion-list>\n		    <button ion-item>\n		      <ion-icon name="ios-arrow-forward" class="position-right"></ion-icon>\n		      <div class="card-title">Firm Name</div>\n		      <div class="card-subtitle">Prakashchand kirorimal rice millers</div>\n		    </button>\n		  </ion-list>\n   </ion-card>\n   <ion-card (click)="nextPage()">\n         <ion-list>\n		    <button ion-item>\n		      <ion-icon name="ios-arrow-forward" class="position-right"></ion-icon>\n		      <div class="card-title">Firm Name</div>\n		      <div class="card-subtitle">Prakashchand kirorimal rice millers</div>\n		    </button>\n		  </ion-list>\n   </ion-card>\n   <ion-card (click)="nextPage()">\n         <ion-list>\n		    <button ion-item>\n		      <ion-icon name="ios-arrow-forward" class="position-right"></ion-icon>\n		      <div class="card-title">Firm Name</div>\n		      <div class="card-subtitle">Prakashchand kirorimal rice millers</div>\n		    </button>\n		  </ion-list>\n   </ion-card>\n   <ion-card (click)="nextPage()">\n         <ion-list>\n		    <button ion-item>\n		      <ion-icon name="ios-arrow-forward" class="position-right"></ion-icon>\n		      <div class="card-title">Firm Name</div>\n		      <div class="card-subtitle">Prakashchand kirorimal rice millers</div>\n		    </button>\n		  </ion-list>\n   </ion-card>\n   <ion-card (click)="nextPage()">\n         <ion-list>\n		    <button ion-item>\n		      <ion-icon name="ios-arrow-forward" class="position-right"></ion-icon>\n		      <div class="card-title">Firm Name</div>\n		      <div class="card-subtitle">Prakashchand kirorimal rice millers</div>\n		    </button>\n		  </ion-list>\n   </ion-card>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\pc\myApp\src\pages\today-follow-up\today-follow-up.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], TodayFollowUpPage);
@@ -1107,7 +1142,71 @@ var TodayFollowUpPage = /** @class */ (function () {
 
 //# sourceMappingURL=today-follow-up.js.map
 
+/***/ }),
+
+/***/ 79:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AuthServiceProvider; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(167);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var apiUrl = "http://localhost/indiagrain/index.php/api_panel/users/";
+/*
+  Generated class for the AuthServiceProvider provider.
+
+  See https://angular.io/guide/dependency-injection for more info on providers
+  and Angular DI.
+*/
+var AuthServiceProvider = /** @class */ (function () {
+    function AuthServiceProvider(http) {
+        this.http = http;
+        console.log('Hello AuthServiceProvider Provider');
+    }
+    AuthServiceProvider.prototype.postData = function (credentials, user_sign_up) {
+        var _this = this;
+        return new Promise(function (resolve, reject) {
+            var headers = new __WEBPACK_IMPORTED_MODULE_0__angular_common_http__["c" /* HttpHeaders */]();
+            _this.http.post(apiUrl + user_sign_up, JSON.stringify(credentials), { headers: headers }).subscribe(function (res) {
+                //resolve(res.json());
+            }, function (err) {
+                reject(err);
+            });
+        });
+    };
+    // login function-------
+    AuthServiceProvider.prototype.loginData = function (credentials, user_login) {
+        var _this = this;
+        return new Promise(function (resolve, reject) {
+            var headers = new __WEBPACK_IMPORTED_MODULE_0__angular_common_http__["c" /* HttpHeaders */]();
+            _this.http.post(apiUrl + user_login, JSON.stringify(credentials), { headers: headers }).subscribe(function (res) {
+                //resolve(res.json());
+            }, function (err) {
+                reject(err);
+            });
+        });
+    };
+    AuthServiceProvider = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_common_http__["a" /* HttpClient */]])
+    ], AuthServiceProvider);
+    return AuthServiceProvider;
+}());
+
+//# sourceMappingURL=auth-service.js.map
+
 /***/ })
 
-},[207]);
+},[211]);
 //# sourceMappingURL=main.js.map

@@ -28047,6 +28047,7 @@ page-login .footer-login {
 
 page-login .red {
   color: red;
+  margin-left: 16px;
 }
 
 page-my-profile .profile {
@@ -28078,6 +28079,12 @@ page-my-profile .profile-pic {
 page-my-profile .profile-name {
   text-align: center;
   color: #fff;
+}
+
+page-my-profile .img-icon {
+  border-radius: 0px !important;
+  width: 52% !important;
+  height: auto !important;
 }
 
 page-otp p {
@@ -28113,16 +28120,15 @@ page-search-client .search-box {
   box-shadow: 1px 1px 4px #ccc;
 }
 
-page-sign-up .profile-area {
-  border-radius: 100%;
-  overflow: hidden;
-  width: 100px;
+page-sign-up .logo {
+  width: 70%;
+  height: auto;
   margin: auto;
-  height: 100px;
 }
 
 page-sign-up .policy {
   margin: auto;
+  padding: 5px;
 }
 
 page-sign-up .footer-login {
@@ -28131,6 +28137,7 @@ page-sign-up .footer-login {
 
 page-sign-up .red {
   color: red;
+  margin-left: 16px;
 }
 
 page-today-follow-up .position-right {
