@@ -40,14 +40,14 @@
         <ion-item>
           <ion-label floating>User ID</ion-label>
           <ion-input type="text" formControlName="userid" [(ngModel)]="userData.userid"></ion-input>
-          <p *ngIf="address.hasError('required') && address.touched">
+          <p *ngIf="userid.hasError('required') && userid.touched">
             <span class="red">User ID</span>
         </p>
         </ion-item>
         <ion-item>
           <ion-label floating>User Type</ion-label>
           <ion-input type="text" formControlName="usertype" [(ngModel)]="userData.usertype"></ion-input>
-          <p *ngIf="address.hasError('required') && address.touched">
+          <p *ngIf="usertype.hasError('required') && usertype.touched">
             <span class="red">usertype</span>
         </p>
         </ion-item>

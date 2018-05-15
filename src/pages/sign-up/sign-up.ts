@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import {Validators, FormBuilder, FormGroup, AbstractControl } from '@angular/forms';
+import { IonicPage, NavController, NavParams, AlertController } from 'ionic-angular';
+import { Validators, FormBuilder, FormGroup, AbstractControl } from '@angular/forms';
 
 import { TodayFollowUpPage } from '../today-follow-up/today-follow-up';
 import { LoginPage } from '../login/login';
@@ -24,36 +24,30 @@ export class SignUpPage {
    fname:AbstractControl;
    lname:AbstractControl;
    password:AbstractControl;
-   countrycode:AbstractControl;
    email:AbstractControl;
    usertype:AbstractControl;
    userid:AbstractControl;
-   address:AbstractControl;
    submitted: boolean = false;
    
    responseData : any;
    userData = {"fname":"", "lname":"","email":"", "userid":"", "pwd":"", "usertype":""}
 
-  constructor(private formBuilder: FormBuilder, public navCtrl: NavController, public navParams: NavParams, public authServiceProvider: AuthServiceProvider) {
+  constructor(private formBuilder: FormBuilder, public navCtrl: NavController, public navParams: NavParams, public authServiceProvider: AuthServiceProvider, private alertCtrl: AlertController) {
 
     this.signupform = formBuilder.group({
       fname:['',Validators.required],
       lname:['',Validators.required],
       password:['',Validators.required],
-      countrycode:['',Validators.required],
       email:['',Validators.required],
       usertype:['',Validators.required],
-      userid:['',Validators.required],
-      address:['',Validators.required]
+      userid:['',Validators.required]
      });
       this.fname = this.signupform.controls['fname'];
       this.lname = this.signupform.controls['lname'];
       this.password = this.signupform.controls['password'];
-      this.countrycode = this.signupform.controls['countrycode'];
       this.email = this.signupform.controls['email'];
       this.usertype = this.signupform.controls['usertype'];
       this.userid = this.signupform.controls['userid'];
-      this.address = this.signupform.controls['address'];
   }
 
   ionViewDidLoad() {
@@ -62,18 +56,35 @@ export class SignUpPage {
    homePage(){
     this.submitted = true;
     if (this.signupform.valid) {
-      console.log(this.signupform.value);
-      //this.navCtrl.push(TodayFollowUpPage);
-      this.authServiceProvider.postData(this.userData, "user_sign_up").then((result) => {
+        //console.log(this.signupform.value);
+        this.authServiceProvider.postData(this.userData, "user_sign_up").then((result: string) => {
         this.responseData = result;
-        console.log(this.responseData); 
-        localStorage.setItem('userData', JSON.stringify(this.responseData) )
-        //this.navCtrl.setRoot(TodayFollowUpPage);
+        //console.log(this.responseData);
+       // localStorage.setItem('userData', JSON.stringify(this.responseData) );
+        var uservalue = JSON.parse(result).status;
+        if(uservalue == true){
+              // alert("SignUp Successfully");
+            let alert = this.alertCtrl.create({
+              title: '',
+              subTitle: 'SignUp Successfully',
+              buttons: ['OK']
+            });
+            alert.present();
+           this.navCtrl.setRoot(TodayFollowUpPage);
+        }
+        else{
+          let alert = this.alertCtrl.create({
+            title: '',
+            subTitle: 'User is already exist',
+            buttons: ['OK']
+          });
+          alert.present();
+        }
       }, (err) =>{
-         //alert('connection faild');
-         this.navCtrl.setRoot(TodayFollowUpPage);
+       
       }); 
     }
+   // this.navCtrl.setRoot(TodayFollowUpPage);
 }
     loginPage(){
       this.navCtrl.push(LoginPage);
