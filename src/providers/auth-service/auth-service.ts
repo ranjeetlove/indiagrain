@@ -1,5 +1,6 @@
 import { HttpClient, HttpHeaders} from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { isTrueProperty } from 'ionic-angular/util/util';
 
 let apiUrl ="http://localhost/indiagrain/index.php/api_panel/users/"
 
@@ -11,16 +12,23 @@ let apiUrl ="http://localhost/indiagrain/index.php/api_panel/users/"
 */
 @Injectable()
 export class AuthServiceProvider {
-
+  jsonvalue: any;
+  signupvalue: any;
   constructor(public http: HttpClient) {
     console.log('Hello AuthServiceProvider Provider');
   }
  postData(credentials, user_sign_up){
-
    return new Promise((resolve, reject)=>{
      let headers = new HttpHeaders();
      this.http.post(apiUrl+user_sign_up, JSON.stringify(credentials), {headers: headers}).subscribe(res =>{
-       //resolve(res.json());
+        resolve(JSON.stringify(res));
+        this.signupvalue = JSON.stringify(res['status']);
+        if (this.signupvalue == "true"){
+          return("signup succesfully");
+        }
+       else{
+        return("user already exist");
+       }
      }, (err) =>{
         reject(err);
      });
@@ -32,7 +40,15 @@ export class AuthServiceProvider {
   return new Promise((resolve, reject)=>{
     let headers = new HttpHeaders();
     this.http.post(apiUrl+user_login, JSON.stringify(credentials), {headers: headers}).subscribe(res =>{
-      //resolve(res.json());
+        resolve(JSON.stringify(res));
+        this.jsonvalue = JSON.stringify(res['isSuccess']);
+        if (this.jsonvalue == "true"){
+          return("login succesfully");
+        }
+       else{
+          return('user dose not exist');
+       }
+      
     }, (err) =>{
        reject(err);
     });
