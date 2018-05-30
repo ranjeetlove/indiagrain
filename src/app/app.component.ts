@@ -18,6 +18,8 @@ import { SignUpPage } from '../pages/sign-up/sign-up';
 import { ForgotPasswordPage } from '../pages/forgot-password/forgot-password';
 import { OtpPage } from '../pages/otp/otp';
 import { ResetPasswordPage } from '../pages/reset-password/reset-password';
+import { EditProfilePage } from '../pages/edit-profile/edit-profile';
+import { ClientDetailsPage } from '../pages/client-details/client-details';
 
 @Component({
   templateUrl: 'app.html'
@@ -41,7 +43,7 @@ export class MyApp {
       { title: 'Today Follow Up', component: TodayFollowUpPage },
       { title: 'Report', component: ReportPage },
       { title: 'Email/Sms', component: SendSmsPage },
-      //{ title: 'Setting', component: SearchClientPage },
+      { title: 'Setting', component: SearchClientPage },
       { title: 'Logout', component: LoginPage }
     ];
 

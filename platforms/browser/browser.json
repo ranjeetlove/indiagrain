@@ -1,0 +1,105 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"Device\"><param name=\"browser-package\" value=\"Device\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "com.synconset.imagepicker": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "cordova-plugin-filechooser": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "cordova-plugin-ionic-keyboard": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "cordova-plugin-ionic-webview": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "cordova-plugin-hotspot": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "cordova-plugin-file-opener2": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "file": "plugins/com.synconset.imagepicker/www/imagepicker.js",
+      "id": "com.synconset.imagepicker.ImagePicker",
+      "pluginId": "com.synconset.imagepicker",
+      "clobbers": [
+        "plugins.imagePicker"
+      ]
+    },
+    {
+      "file": "plugins/cordova-plugin-device/www/device.js",
+      "id": "cordova-plugin-device.device",
+      "pluginId": "cordova-plugin-device",
+      "clobbers": [
+        "device"
+      ]
+    },
+    {
+      "file": "plugins/cordova-plugin-device/src/browser/DeviceProxy.js",
+      "id": "cordova-plugin-device.DeviceProxy",
+      "pluginId": "cordova-plugin-device",
+      "runs": true
+    },
+    {
+      "file": "plugins/cordova-plugin-filechooser/www/fileChooser.js",
+      "id": "cordova-plugin-filechooser.FileChooser",
+      "pluginId": "cordova-plugin-filechooser",
+      "clobbers": [
+        "fileChooser"
+      ]
+    },
+    {
+      "file": "plugins/cordova-plugin-hotspot/www/HotSpotPlugin.js",
+      "id": "cordova-plugin-hotspot.HotSpotPlugin",
+      "pluginId": "cordova-plugin-hotspot",
+      "clobbers": [
+        "cordova.plugins.hotspot"
+      ]
+    },
+    {
+      "file": "plugins/cordova-plugin-file-opener2/www/plugins.FileOpener2.js",
+      "id": "cordova-plugin-file-opener2.FileOpener2",
+      "pluginId": "cordova-plugin-file-opener2",
+      "clobbers": [
+        "cordova.plugins.fileOpener2"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "com.synconset.imagepicker": "2.1.10",
+    "cordova-plugin-device": "2.0.2",
+    "cordova-plugin-filechooser": "1.0.1",
+    "cordova-plugin-ionic-keyboard": "2.0.5",
+    "cordova-plugin-ionic-webview": "1.2.1",
+    "cordova-plugin-compat": "1.2.0",
+    "cordova-plugin-hotspot": "1.2.10",
+    "cordova-plugin-file-opener2": "2.0.19"
+  }
+}

@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar color="blue">
+<button ion-button menuToggle>
+ <ion-icon name="menu"></ion-icon>
+</button>
+<ion-title>Search by</ion-title>
+</ion-navbar>	
+
+</ion-header>
+
+
+<ion-content>
+<ion-card *ngFor="let clientdatalist of clientdatalists"> 
+<ion-list>
+   <button ion-item>
+     <ion-icon name="ios-arrow-forward" class="position-right"></ion-icon>
+     <div class="card-title">Firm Name</div>
+     <div class="card-subtitle" text-wrap>{{ clientdatalist.firmname }}</div>
+   </button>
+ </ion-list>
+</ion-card>
+</ion-content>
+<!-- (click)="nextPage(todayfollowitem.id)" -->

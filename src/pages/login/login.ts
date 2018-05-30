@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import {Validators, FormBuilder, FormGroup, AbstractControl } from '@angular/forms';
+import { IonicPage, NavController, NavParams, AlertController  } from 'ionic-angular';
+import { Validators, FormBuilder, FormGroup, AbstractControl } from '@angular/forms';
 
 import { TodayFollowUpPage } from '../today-follow-up/today-follow-up';
 import { SignUpPage } from '../sign-up/sign-up';
@@ -28,7 +28,7 @@ export class LoginPage {
    responseData : any;
    logData = {"userid":"", "pwd":""}
  
-  constructor(private formBuilder: FormBuilder, public navCtrl: NavController, public navParams: NavParams, public authServiceProvider: AuthServiceProvider) {
+  constructor(private formBuilder: FormBuilder, public navCtrl: NavController, public navParams: NavParams, public authServiceProvider: AuthServiceProvider, private alertCtrl: AlertController) {
         
        this.mygroup = formBuilder.group({
         userid:['',Validators.required],
@@ -45,16 +45,33 @@ export class LoginPage {
   homePage(){
     this.submitted = true;
     if (this.mygroup.valid) {
-      console.log(this.mygroup.value);
+      // console.log(this.mygroup.value);
       //this.navCtrl.setRoot(TodayFollowUpPage)
-        this.authServiceProvider.loginData(this.logData, "user_login").then((result) => {
+        this.authServiceProvider.loginData(this.logData, "user_login").then((result: string) => {
         this.responseData = result;
-        console.log(this.responseData);
-        localStorage.setItem('logData', JSON.stringify(this.responseData) )
+        var iscondition = JSON.parse(result).isSuccess;
+        if(iscondition == true){
+            //alert("login successfully");
+            let alert = this.alertCtrl.create({
+              title: '',
+              subTitle: 'Login Successfully',
+              buttons: ['OK']
+            });
+            alert.present();
+            this.navCtrl.setRoot(TodayFollowUpPage);
+        }
+        else{
+          let alert = this.alertCtrl.create({
+            title: '',
+            subTitle: 'User Does Not Exist',
+            buttons: ['OK']
+          });
+          alert.present();
+        }
         //this.navCtrl.setRoot(TodayFollowUpPage);
       }, (err) =>{
-         this.navCtrl.setRoot(TodayFollowUpPage);
-      }); 
+        }); 
+     // this.navCtrl.setRoot(TodayFollowUpPage);
     }
 }
   signUp(){
@@ -64,4 +81,5 @@ export class LoginPage {
       this.navCtrl.push(ForgotPasswordPage);
    } 
  
+  
 }

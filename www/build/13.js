@@ -1,14 +1,14 @@
 webpackJsonp([13],{
 
-/***/ 290:
+/***/ 299:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ClintPageModule", function() { return ClintPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FollowUpDetailsPageModule", function() { return FollowUpDetailsPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__clint__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__follow_up_details__ = __webpack_require__(106);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ClintPageModule = /** @class */ (function () {
-    function ClintPageModule() {
+var FollowUpDetailsPageModule = /** @class */ (function () {
+    function FollowUpDetailsPageModule() {
     }
-    ClintPageModule = __decorate([
+    FollowUpDetailsPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__clint__["a" /* ClintPage */],
+                __WEBPACK_IMPORTED_MODULE_2__follow_up_details__["a" /* FollowUpDetailsPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__clint__["a" /* ClintPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__follow_up_details__["a" /* FollowUpDetailsPage */]),
             ],
         })
-    ], ClintPageModule);
-    return ClintPageModule;
+    ], FollowUpDetailsPageModule);
+    return FollowUpDetailsPageModule;
 }());
 
-//# sourceMappingURL=clint.module.js.map
+//# sourceMappingURL=follow-up-details.module.js.map
 
 /***/ })
 

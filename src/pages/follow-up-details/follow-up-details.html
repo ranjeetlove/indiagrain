@@ -1,5 +1,5 @@
 <!--
-  Generated template for the FollowUpDetailsPage page.
+  Generated template for the followupdetailsitemPage page.
 
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
@@ -15,23 +15,23 @@
 <ion-content>
     <ion-card>
           <ion-card-content>
-          	    <ion-list>
-          	    	<ion-item text-wrap class="item">
-          	    		<div class="firstname">
-          		 		Firm Name 
-          		 	</div>	
-          		 	<div class="details">
-          		 		Prakashchand kirorimal rice millers
-          		 	</div>
-          	    	</ion-item>
-          	    </ion-list>	
+			<ion-list>
+				<ion-item text-wrap class="item"> 
+					<div class="firstname">
+					 Firm Name 
+				 </div>	
+				 <div class="details">
+				  {{ followupdetailsitems.firmname }}
+				 </div>
+				</ion-item>
+			</ion-list>	
           	     <ion-list>
           	    	<ion-item text-wrap>
           	    		<div class="firstname">
           		 		Contact Person 
           		 	</div>	
           		 	<div class="details">
-          		 		Sandeep Tyagi
+						{{ followupdetailsitems.contactperson }}
           		 	</div>
           	    	</ion-item>
           	    </ion-list>	
@@ -41,7 +41,7 @@
           		 		Address 
           		 	</div>	
           		 	<div class="details">
-          		 		H-35 sector 63
+						{{ followupdetailsitems.address }}
           		 	</div>
           	    	</ion-item>
           	    </ion-list>
@@ -51,7 +51,7 @@
           		 		District 
           		 	</div>	
           		 	<div class="details">
-          		 		Noida
+						{{ followupdetailsitems.district }}
           		 	</div>
           	    	</ion-item>
           	    </ion-list>
@@ -61,7 +61,7 @@
           		 		Pincode 
           		 	</div>	
           		 	<div class="details">
-          		 		####
+						{{ followupdetailsitems.pincode }}
           		 	</div>
           	    	</ion-item>
           	    </ion-list>
@@ -71,17 +71,17 @@
           		 		Country 
           		 	</div>	
           		 	<div class="details">
-          		 		India
+						{{ followupdetailsitems.country }}
           		 	</div>
           	    	</ion-item>
           	    </ion-list>
           	    <ion-list>
           	    	<ion-item text-wrap>
           	    		<div class="firstname">
-          		 		Enquiry Type 
+          		 		Enquiry Date 
           		 	</div>	
           		 	<div class="details">
-          		 		Warm
+						{{ followupdetailsitems.enquirydate }}
           		 	</div>
           	    	</ion-item>
           	    </ion-list>
@@ -91,7 +91,7 @@
           		 		Client Stage 
           		 	</div>	
           		 	<div class="details">
-          		 		Wp 100
+						{{ followupdetailsitems.ClientStage }}
           		 	</div>
           	    	</ion-item>
           	    </ion-list>
@@ -101,7 +101,7 @@
           		 		Mobile 1 
           		 	</div>	
           		 	<div class="details">
-          		 		+919839629561
+						{{ followupdetailsitems.MobExt1 }}
           		 	</div>
           	    	</ion-item>
           	    </ion-list>
@@ -111,7 +111,7 @@
           		 		Mobile 2 
           		 	</div>	
           		 	<div class="details">
-          		 		+919839629561
+						{{ followupdetailsitems.MobExt2 }}
           		 	</div>
           	    	</ion-item>
           	    </ion-list>
@@ -121,7 +121,7 @@
           		 		Mobile 3 
           		 	</div>	
           		 	<div class="details">
-          		 		+919839629561
+						{{ followupdetailsitems.MobExt3 }}
           		 	</div>
           	    	</ion-item>
           	    </ion-list>
@@ -131,7 +131,7 @@
           		 		Mobile 4 
           		 	</div>	
           		 	<div class="details">
-          		 		+919839629561
+						{{ followupdetailsitems.MobExt4 }}
           		 	</div>
           	    	</ion-item>
           	    </ion-list>	
@@ -141,7 +141,7 @@
           		 		Telefax 
           		 	</div>	
           		 	<div class="details">
-          		 		#####
+						{{ followupdetailsitems.contactperson }}
           		 	</div>
           	    	</ion-item>
           	    </ion-list>
@@ -151,7 +151,7 @@
           		 		EMAIL 
           		 	</div>	
           		 	<div class="details">
-          		 		abc@gamil.com
+						{{ followupdetailsitems.email1 }}
           		 	</div>
           	    	</ion-item>
           	    </ion-list>
@@ -161,10 +161,81 @@
           		 		EMAIL 2 
           		 	</div>	
           		 	<div class="details">
-          		 		abc@gamil.com
+						{{ followupdetailsitems.email2 }}
           		 	</div>
           	    	</ion-item>
-          	    </ion-list>
+				  </ion-list>
+				  <ion-list>
+					<ion-item text-wrap>
+						<div class="firstname">
+						 Website
+					 </div>	
+					 <div class="details">
+					  {{ followupdetailsitems.website }}
+					 </div>
+					</ion-item>
+				</ion-list> 
+				<ion-list>
+					<ion-item text-wrap>
+						<div class="firstname">
+						 Industry Type
+					 </div>	
+					 <div class="details">
+					  {{ followupdetailsitems.website }}
+					 </div>
+					</ion-item>
+				</ion-list> 
+				<ion-list>
+					<ion-item text-wrap>
+						<div class="firstname">
+						 Exe Remark
+					 </div>	
+					 <div class="details">
+					  {{ followupdetailsitems.website }}
+					 </div>
+					</ion-item>
+				</ion-list> 
+				<ion-list>
+					<ion-item text-wrap>
+						<div class="firstname">
+						 Remark
+					 </div>	
+					 <div class="details">
+					  {{ followupdetailsitems.remark }}
+					 </div>
+					</ion-item>
+				</ion-list> 
+				<ion-list>
+					<ion-item text-wrap>
+						<div class="firstname">
+						 follow Up By
+					 </div>	
+					 <div class="details">
+					  {{ followupdetailsitems.followby }}
+					 </div>
+					</ion-item>
+				</ion-list> 
+				<ion-list>
+					<ion-item text-wrap>
+						<div class="firstname">
+						 Follow up media
+					 </div>	
+					 <div class="details">
+					  {{ followupdetailsitems.followmedia }}
+					 </div>
+					</ion-item>
+				</ion-list> 
+				<ion-list>
+					<ion-item text-wrap>
+						<div class="firstname">
+						 Next follow up date 
+					 </div>	
+					 <div class="details">
+					  {{ followupdetailsitems.followdate }}
+					 </div>
+					</ion-item>
+				</ion-list> 
+				  
                     	
          </ion-card-content>
     </ion-card>

@@ -10,68 +10,13 @@
 
 
 <ion-content>
-	 <ion-card (click)="nextPage()">
-         <ion-list>
+	 <ion-card (click)="nextPage(todayfollowitem.id)" *ngFor="let todayfollowitem of todayfollowitems"> 
+     <ion-list>
 		    <button ion-item>
 		      <ion-icon name="ios-arrow-forward" class="position-right"></ion-icon>
 		      <div class="card-title">Firm Name</div>
-		      <div class="card-subtitle">Prakashchand kirorimal rice millers</div>
+		      <div class="card-subtitle" text-wrap>{{ todayfollowitem.firmname }}</div>
 		    </button>
 		  </ion-list>
    </ion-card>
-    <ion-card (click)="nextPage()">
-         <ion-list>
-		    <button ion-item>
-		      <ion-icon name="ios-arrow-forward" class="position-right"></ion-icon>
-		      <div class="card-title">Firm Name</div>
-		      <div class="card-subtitle">Aggarwal Rice Mill</div>
-		    </button>
-		  </ion-list>
-   </ion-card>
-    <ion-card (click)="nextPage()">
-         <ion-list>
-		    <button ion-item>
-		      <ion-icon name="ios-arrow-forward" class="position-right"></ion-icon>
-		      <div class="card-title">Firm Name</div>
-		      <div class="card-subtitle">Prakashchand kirorimal rice millers</div>
-		    </button>
-		  </ion-list>
-   </ion-card>
-   <ion-card (click)="nextPage()">
-         <ion-list>
-		    <button ion-item>
-		      <ion-icon name="ios-arrow-forward" class="position-right"></ion-icon>
-		      <div class="card-title">Firm Name</div>
-		      <div class="card-subtitle">Prakashchand kirorimal rice millers</div>
-		    </button>
-		  </ion-list>
-   </ion-card>
-   <ion-card (click)="nextPage()">
-         <ion-list>
-		    <button ion-item>
-		      <ion-icon name="ios-arrow-forward" class="position-right"></ion-icon>
-		      <div class="card-title">Firm Name</div>
-		      <div class="card-subtitle">Prakashchand kirorimal rice millers</div>
-		    </button>
-		  </ion-list>
-   </ion-card>
-   <ion-card (click)="nextPage()">
-         <ion-list>
-		    <button ion-item>
-		      <ion-icon name="ios-arrow-forward" class="position-right"></ion-icon>
-		      <div class="card-title">Firm Name</div>
-		      <div class="card-subtitle">Prakashchand kirorimal rice millers</div>
-		    </button>
-		  </ion-list>
-   </ion-card>
-   <ion-card (click)="nextPage()">
-         <ion-list>
-		    <button ion-item>
-		      <ion-icon name="ios-arrow-forward" class="position-right"></ion-icon>
-		      <div class="card-title">Firm Name</div>
-		      <div class="card-subtitle">Prakashchand kirorimal rice millers</div>
-		    </button>
-		  </ion-list>
-   </ion-card>
-
 </ion-content>

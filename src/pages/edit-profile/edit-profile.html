@@ -1,0 +1,157 @@
+<ion-header>
+  <ion-navbar color="blue">
+
+    <ion-grid>
+      <ion-row>
+<ion-col col-6>
+    <ion-title class="profile">Edit Profile</ion-title>
+</ion-col>
+<ion-col col-6>
+    <button ion-button class="edit" (click)="getPictures()">
+    	Save
+    </button>
+</ion-col>
+</ion-row>
+</ion-grid>
+    <ion-grid>
+      <ion-row>
+      	<div class="profile-box">
+         <div class="profile-pic" *ngFor="let image of images">
+    	   <img src="{{image}}"/>
+         </div>
+         <h3 class="profile-name">Ranjeet Singh</h3>
+     </div>
+     </ion-row>
+</ion-grid>
+      
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      PROFILE DETAILS
+    </ion-card-header>
+    <ion-grid>
+        <ion-row>
+      <ion-list>
+         <ion-item>
+          <ion-avatar item-start>
+            <img class="img-icon" src="assets/imgs/icons/default_user_id.png">
+          </ion-avatar>
+          <!-- <h2 class="allheading"></h2> -->   
+        </ion-item>
+        </ion-list>
+       </ion-row>
+       <ion-row>
+      <ion-list>
+         <ion-item>
+          <ion-avatar item-start>
+            <img class="img-icon" src="assets/imgs/icons/default_user_types.png">
+          </ion-avatar>
+          <h2 class="allheading"></h2>
+          <p>User Type</p>
+        </ion-item>
+        </ion-list>
+       </ion-row>
+       <ion-row>
+         <ion-col col-7>
+      <ion-list>
+         <ion-item>
+          <ion-avatar item-start>
+            <img class="img-icon" src="assets/imgs/icons/default_mobile.png">
+          </ion-avatar>
+          <h2 class="allheading"></h2>
+          <p>First Name</p>
+        </ion-item>
+        </ion-list>
+        </ion-col>
+        <ion-col col-5>
+      <ion-list>
+         <ion-item>
+          <h2 class="allheading"></h2>
+          <p>Last Name</p>
+        </ion-item>
+        </ion-list>
+        </ion-col>
+       </ion-row>
+        <ion-row>
+      <ion-list>
+         <ion-item>
+          <ion-avatar item-start>
+            <img class="img-icon" src="assets/imgs/icons/default_gender.png">
+          </ion-avatar>
+          <h2 class="allheading"></h2>
+          <p>Gender</p>
+        </ion-item>
+        </ion-list>
+       </ion-row>
+        <ion-row>
+      <ion-list>
+         <ion-item>
+          <ion-avatar item-start>
+            <img class="img-icon" src="assets/imgs/icons/default_dob.png">
+          </ion-avatar>
+          <h2></h2>
+          <p>Birthday</p>
+        </ion-item>
+        </ion-list>
+       </ion-row>
+        <ion-row>
+      <ion-list>
+         <ion-item>
+          <ion-avatar item-start>
+            <img class="img-icon" src="assets/imgs/icons/default_location.png">
+          </ion-avatar>
+          <h2></h2>
+          <p>Address</p>
+        </ion-item>
+        </ion-list>
+       </ion-row>
+        <ion-row>
+      <ion-list>
+         <ion-item>
+          <ion-avatar item-start>
+            <img class="img-icon" src="assets/imgs/icons/default_occupation.png">
+          </ion-avatar>
+          <h2 class="allheading"></h2>
+          <p>Occupation</p>
+        </ion-item>
+        </ion-list>
+       </ion-row>
+        <ion-row>
+      <ion-list>
+         <ion-item>
+          <ion-avatar item-start>
+            <img class="img-icon" src="assets/imgs/icons/default_location.png">
+          </ion-avatar>
+          <h2></h2>
+          <p>Mobile Number</p>
+        </ion-item>
+        </ion-list>
+       </ion-row>
+       <ion-row>
+      <ion-list>
+         <ion-item>
+          <ion-avatar item-start>
+            <img class="img-icon" src="assets/imgs/icons/default_email.png">
+          </ion-avatar>
+          <h2></h2>
+          <p>Email</p>
+        </ion-item>
+        </ion-list>
+       </ion-row>
+        <ion-row>
+      <ion-list>
+         <ion-item>
+          <ion-avatar item-start>
+            <img class="img-icon" src="assets/imgs/icons/default_info.png">
+          </ion-avatar>
+          <h2></h2>
+          <p>About</p>
+        </ion-item>
+        </ion-list>
+       </ion-row>
+     </ion-grid>
+  </ion-card>
+</ion-content>

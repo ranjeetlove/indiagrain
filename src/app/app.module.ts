@@ -3,6 +3,7 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { AuthServiceProvider } from '../providers/auth-service/auth-service';
 import { HttpClientModule} from '@angular/common/http';
+import { ImagePicker } from '@ionic-native/image-picker';
  
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
@@ -20,10 +21,15 @@ import { SignUpPage } from '../pages/sign-up/sign-up';
 import { ForgotPasswordPage } from '../pages/forgot-password/forgot-password';
 import { OtpPage } from '../pages/otp/otp';
 import { ResetPasswordPage } from '../pages/reset-password/reset-password';
+import { EditProfilePage } from '../pages/edit-profile/edit-profile';
+import { ClientDetailsPage } from '../pages/client-details/client-details';
+
 
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { FollowupProvider } from '../providers/followup/followup';
+import { ClientsearchProvider } from '../providers/clientsearch/clientsearch';
 
 
 
@@ -44,7 +50,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SignUpPage,
     ForgotPasswordPage,
     OtpPage,
-    ResetPasswordPage
+    ResetPasswordPage,
+    EditProfilePage,
+    ClientDetailsPage
   ],
   imports: [
     BrowserModule,HttpClientModule,
@@ -67,12 +75,16 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SignUpPage,
     ForgotPasswordPage,
     OtpPage,
-    ResetPasswordPage
+    ResetPasswordPage,
+    EditProfilePage,
+    ClientDetailsPage
   ],
   providers: [
     StatusBar,
-    SplashScreen,AuthServiceProvider,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    SplashScreen,AuthServiceProvider,ImagePicker,
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    FollowupProvider,
+    ClientsearchProvider
     
   ]
 })

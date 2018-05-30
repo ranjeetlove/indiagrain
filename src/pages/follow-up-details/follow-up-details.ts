@@ -1,11 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
+import { followupModel, followupModelResult } from '../../providers/followup/followup.model';
+import { FollowupProvider } from '../../providers/followup/followup';
 /**
  * Generated class for the FollowUpDetailsPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
  */
 
 @IonicPage()
@@ -14,12 +12,31 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'follow-up-details.html',
 })
 export class FollowUpDetailsPage {
+  
+  followupdetails: followupModel;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  id: number;
+  myid: any;
+  followupdetailsitems: any = [0];
+ 
+  constructor(public navCtrl: NavController, public navParams: NavParams, private followupProvider: FollowupProvider) {
+    this.id = navParams.get('id');
+    let id = { "id": this.id };
+    this.myid = id;
+    this.detailsData();
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad FollowUpDetailsPage');
+  // console.log(FollowUpDetailsPage); 
   }
 
+  detailsData() {
+   
+    this.followupProvider.detailsData(this.myid, "followup_list").then((Result : string) => {
+    //this.followupDetails = Result; 
+    this.followupdetailsitems = this.followupProvider.followupmodel[0];
+    console.log(this.followupdetailsitems);
+   }, (err) =>{
+     }); 
+   }
 }

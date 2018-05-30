@@ -13,7 +13,7 @@
 </ion-col>
 <ion-col col-4>
     <button ion-button class="edit">
-    	<ion-icon name="create"></ion-icon>
+    	<ion-icon name="create" (click)="editprofile()"></ion-icon>
     </button>
 </ion-col>
 </ion-row>
@@ -24,12 +24,12 @@
          <div class="profile-pic">
     	   <img src="assets/imgs/profile.jpg">
          </div>
-         <h3 class="profile-name">Amit Tyagi</h3>
+         <h3 class="profile-name">{{ userData.fname + " " + userData.lname }}</h3>
      </div>
      </ion-row>
 </ion-grid>
-    
-  </ion-navbar>
+     
+  </ion-navbar> 
 </ion-header>
 <!-- Segment in a header -->
 <ion-content >
@@ -44,7 +44,7 @@
 		    <ion-avatar item-start>
 		      <img class="img-icon" src="assets/imgs/icons/default_user_id.png">
 		    </ion-avatar>
-		    <h2>Amit</h2>
+		    <h2 class="allheading">{{ userData.userid }}</h2>
 		    <p>User Id</p>
 		  </ion-item>
       </ion-list>
@@ -55,7 +55,7 @@
 		    <ion-avatar item-start>
 		      <img class="img-icon" src="assets/imgs/icons/default_user_types.png">
 		    </ion-avatar>
-		    <h2>User</h2>
+		    <h2 class="allheading">{{ userData.usertype }}</h2>
 		    <p>User Type</p>
 		  </ion-item>
       </ion-list>
@@ -67,7 +67,7 @@
 		    <ion-avatar item-start>
 		      <img class="img-icon" src="assets/imgs/icons/default_mobile.png">
 		    </ion-avatar>
-		    <h2>Amit</h2>
+		    <h2 class="allheading">{{ userData.fname }}</h2>
 		    <p>First Name</p>
 		  </ion-item>
       </ion-list>
@@ -75,7 +75,7 @@
       <ion-col col-5>
 	  <ion-list>
 		   <ion-item>
-		    <h2>Tyagi</h2>
+		    <h2 class="allheading">{{ userData.lname }}</h2>
 		    <p>Last Name</p>
 		  </ion-item>
       </ion-list>
@@ -87,7 +87,7 @@
 		    <ion-avatar item-start>
 		      <img class="img-icon" src="assets/imgs/icons/default_gender.png">
 		    </ion-avatar>
-		    <h2>Male</h2>
+		    <h2 class="allheading">{{ userData.gender }}</h2>
 		    <p>Gender</p>
 		  </ion-item>
       </ion-list>
@@ -98,7 +98,7 @@
 		    <ion-avatar item-start>
 		      <img class="img-icon" src="assets/imgs/icons/default_dob.png">
 		    </ion-avatar>
-		    <h2>05-05-2018</h2>
+		    <h2>{{ userData.birthdate }}</h2>
 		    <p>Birthday</p>
 		  </ion-item>
       </ion-list>
@@ -109,7 +109,7 @@
 		    <ion-avatar item-start>
 		      <img class="img-icon" src="assets/imgs/icons/default_location.png">
 		    </ion-avatar>
-		    <h2>Delhi</h2>
+		    <h2>{{ userData.Address }}</h2>
 		    <p>Address</p>
 		  </ion-item>
       </ion-list>
@@ -120,7 +120,7 @@
 		    <ion-avatar item-start>
 		      <img class="img-icon" src="assets/imgs/icons/default_occupation.png">
 		    </ion-avatar>
-		    <h2>Emp</h2>
+		    <h2 class="allheading">{{ userData.Occupation }}</h2>
 		    <p>Occupation</p>
 		  </ion-item>
       </ion-list>
@@ -131,7 +131,7 @@
 		    <ion-avatar item-start>
 		      <img class="img-icon" src="assets/imgs/icons/default_location.png">
 		    </ion-avatar>
-		    <h2>+9869629561</h2>
+		    <h2>{{ userData.mobileno }}</h2>
 		    <p>Mobile Number</p>
 		  </ion-item>
       </ion-list>
@@ -142,7 +142,7 @@
 		    <ion-avatar item-start>
 		      <img class="img-icon" src="assets/imgs/icons/default_email.png">
 		    </ion-avatar>
-		    <h2>singhr495@gmail.com</h2>
+		    <h2>{{ userData.email }}</h2>
 		    <p>Email</p>
 		  </ion-item>
       </ion-list>
@@ -153,7 +153,7 @@
 		    <ion-avatar item-start>
 		      <img class="img-icon" src="assets/imgs/icons/default_info.png">
 		    </ion-avatar>
-		    <h2>My Name is Ranjeet Singh</h2>
+		    <h2>{{ userData.about }}</h2>
 		    <p>About</p>
 		  </ion-item>
       </ion-list>

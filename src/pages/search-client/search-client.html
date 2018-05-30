@@ -8,16 +8,16 @@
 </ion-header>
 
 <ion-content  padding>
-	  <ion-list>
-
-  <ion-item class="search-box">
-    <ion-input type="text" placeholder="Search By KeyWord"></ion-input>
-  </ion-item>
+  <form (ngSubmit)="getClient()">
+  <ion-list>
+   <!-- <ion-item class="search-box">
+    <ion-input type="text" name="keyword" placeholder="Search By KeyWord" [(ngModel)]="todo.keyword"></ion-input>
+  </ion-item> -->
   <br>
   <ion-item class="search-box">
-    <ion-input type="password" placeholder="Search By Mobile Number"></ion-input>
+    <ion-input type="number" name="mobile" placeholder="Search By Mobile Number"  [(ngModel)]="todo.mobile"></ion-input>
   </ion-item>
-
-</ion-list>
-      <button ion-button block color="blue">Search</button>
+  </ion-list>
+      <button ion-button block color="blue"  type="submit">Search</button>
+    </form> 
 </ion-content>

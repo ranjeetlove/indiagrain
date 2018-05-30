@@ -27972,6 +27972,24 @@ ion-navbar.toolbar {
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
 
+page-client-details .position-right {
+  float: right;
+  color: gray;
+  font-size: 30px;
+  margin-top: 8px;
+}
+
+page-client-details .card-title {
+  color: #ccc;
+  margin-bottom: 5px;
+}
+
+page-client-details .card-subtitle {
+  color: #1090fd;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
 page-clint .bottom-border {
   border-bottom: 1px solid #ccc;
 }
@@ -27984,6 +28002,48 @@ page-clint .font12 {
 
 page-clint .width100 {
   width: 100% !important;
+}
+
+page-edit-profile .profile {
+  margin-top: 8px;
+}
+
+page-edit-profile .edit {
+  float: right;
+  background-color: #1090fd;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+}
+
+page-edit-profile .profile-box {
+  height: auto;
+  width: 100%;
+}
+
+page-edit-profile .profile-pic {
+  width: 90px !important;
+  height: 90px !important;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  overflow: hidden !important;
+  margin: auto;
+}
+
+page-edit-profile .profile-name {
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+page-edit-profile .allheading {
+  text-transform: capitalize;
+}
+
+page-edit-profile .img-icon {
+  border-radius: 0px !important;
+  width: 52% !important;
+  height: auto !important;
 }
 
 page-follow-up-details .firstname {
@@ -28079,6 +28139,11 @@ page-my-profile .profile-pic {
 page-my-profile .profile-name {
   text-align: center;
   color: #fff;
+  text-transform: capitalize;
+}
+
+page-my-profile .allheading {
+  text-transform: capitalize;
 }
 
 page-my-profile .img-icon {
@@ -28155,4 +28220,5 @@ page-today-follow-up .card-title {
 page-today-follow-up .card-subtitle {
   color: #1090fd;
   font-weight: bold;
+  text-transform: capitalize;
 }
