@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { clientModel, clientModelResult } from '../../providers/clientsearch/clientdetails.model';
+import { clientModel } from '../../providers/clientsearch/clientdetails.model';
 
 import { ClientsearchProvider } from '../../providers/clientsearch/clientsearch';
 /**
@@ -30,7 +30,7 @@ export class ClientDetailsPage {
     this.clientdata = this.clientsearchProvider.clientmodel;
     //console.log(this.clientdata);
     this.clientdatalists = this.clientdata;
-    console.log(this.clientdatalists);
+    //console.log(this.clientdatalists);
   }
 
 }

@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 import { AuthServiceProvider } from '../../providers/auth-service/auth-service';
-import { userModel, userModelResult } from '../../providers/auth-service/user.model';
+import { userModel } from '../../providers/auth-service/user.model';
 import { EditProfilePage } from '../edit-profile/edit-profile';
 /**
  * Generated class for the MyProfilePage page.

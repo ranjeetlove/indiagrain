@@ -1,9 +1,9 @@
-import { Component, Output, EventEmitter } from '@angular/core';
+import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { FollowUpDetailsPage } from '../follow-up-details/follow-up-details';
 import { FollowupProvider } from '../../providers/followup/followup';
-import { userModel, userModelResult } from '../../providers/auth-service/user.model';
-import { followupModel, followupModelResult } from '../../providers/followup/followup.model';
+import { userModel } from '../../providers/auth-service/user.model';
+import { followupModel } from '../../providers/followup/followup.model';
 import { AuthServiceProvider } from '../../providers/auth-service/auth-service'; 
 
 /**

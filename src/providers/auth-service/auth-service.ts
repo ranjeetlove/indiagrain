@@ -1,7 +1,7 @@
 import { HttpClient, HttpHeaders} from '@angular/common/http';
 import { Injectable } from '@angular/core';
 //import { isTrueProperty } from 'ionic-angular/util/util';
-import { userModel, userModelResult } from './user.model';
+import { userModel } from './user.model';
 
 let apiUrl ="http://34.207.7.22/indiagrain/index.php/api_panel/users/"
  

@@ -1,7 +1,7 @@
 
 import { HttpClient, HttpHeaders} from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { clientModel, clientModelResult } from '../../providers/clientsearch/clientdetails.model';
+import { clientModel } from '../../providers/clientsearch/clientdetails.model';
 
 let apiUrl ="http://34.207.7.22/indiagrain/index.php/api_panel/followups/"
 

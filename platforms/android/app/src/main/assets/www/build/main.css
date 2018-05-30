@@ -27972,6 +27972,24 @@ ion-navbar.toolbar {
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
 
+page-client-details .position-right {
+  float: right;
+  color: gray;
+  font-size: 30px;
+  margin-top: 8px;
+}
+
+page-client-details .card-title {
+  color: #ccc;
+  margin-bottom: 5px;
+}
+
+page-client-details .card-subtitle {
+  color: #1090fd;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
 page-clint .bottom-border {
   border-bottom: 1px solid #ccc;
 }
@@ -28202,4 +28220,5 @@ page-today-follow-up .card-title {
 page-today-follow-up .card-subtitle {
   color: #1090fd;
   font-weight: bold;
+  text-transform: capitalize;
 }

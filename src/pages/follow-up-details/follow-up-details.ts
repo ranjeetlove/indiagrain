@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { followupModel, followupModelResult } from '../../providers/followup/followup.model';
+import { followupModel } from '../../providers/followup/followup.model';
 import { FollowupProvider } from '../../providers/followup/followup';
 /**
  * Generated class for the FollowUpDetailsPage page.
@@ -35,7 +35,7 @@ export class FollowUpDetailsPage {
     this.followupProvider.detailsData(this.myid, "followup_list").then((Result : string) => {
     //this.followupDetails = Result; 
     this.followupdetailsitems = this.followupProvider.followupmodel[0];
-    console.log(this.followupdetailsitems);
+    //console.log(this.followupdetailsitems);
    }, (err) =>{
      }); 
    }

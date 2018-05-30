@@ -1,25 +1,24 @@
 import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
-import { StatusBar } from '@ionic-native/status-bar';
-import { SplashScreen } from '@ionic-native/splash-screen';
+// import { StatusBar } from '@ionic-native/status-bar';
  
-import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
+// import { HomePage } from '../pages/home/home';
+// import { ListPage } from '../pages/list/list';
 import { TodayFollowUpPage } from '../pages/today-follow-up/today-follow-up';
-import { FollowUpDetailsPage } from '../pages/follow-up-details/follow-up-details';
+// import { FollowUpDetailsPage } from '../pages/follow-up-details/follow-up-details';
 import { ClintPage } from '../pages/clint/clint';
 import { SearchClientPage } from '../pages/search-client/search-client';
 import { SendSmsPage } from '../pages/send-sms/send-sms';
 import { ReportPage } from '../pages/report/report';
-import { QuotationDetailsPage } from '../pages/quotation-details/quotation-details';
+// import { QuotationDetailsPage } from '../pages/quotation-details/quotation-details';
 import { MyProfilePage } from '../pages/my-profile/my-profile';
 import { LoginPage } from '../pages/login/login';
-import { SignUpPage } from '../pages/sign-up/sign-up';
-import { ForgotPasswordPage } from '../pages/forgot-password/forgot-password';
-import { OtpPage } from '../pages/otp/otp';
-import { ResetPasswordPage } from '../pages/reset-password/reset-password';
-import { EditProfilePage } from '../pages/edit-profile/edit-profile';
-import { ClientDetailsPage } from '../pages/client-details/client-details';
+// import { SignUpPage } from '../pages/sign-up/sign-up';
+// import { ForgotPasswordPage } from '../pages/forgot-password/forgot-password';
+// import { OtpPage } from '../pages/otp/otp';
+// import { ResetPasswordPage } from '../pages/reset-password/reset-password';
+// import { EditProfilePage } from '../pages/edit-profile/edit-profile';
+// import { ClientDetailsPage } from '../pages/client-details/client-details';
 
 @Component({
   templateUrl: 'app.html'
@@ -31,7 +30,7 @@ export class MyApp {
 
   pages: Array<{title: string, component: any}>;
 
-  constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
+  constructor(public platform: Platform) {
     this.initializeApp();
 
     // used for an example of ngFor and navigation
@@ -53,8 +52,9 @@ export class MyApp {
     this.platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
       // Here you can do any higher level native things you might need.
-      this.statusBar.styleDefault();
-      this.splashScreen.hide();
+      // , public statusBar: StatusBar
+      //this.statusBar.styleDefault();
+     // this.splashScreen.hide();
     });
   }
 

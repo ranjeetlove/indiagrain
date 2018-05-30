@@ -1,14 +1,14 @@
 webpackJsonp([8],{
 
-/***/ 298:
+/***/ 304:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OtpPageModule", function() { return OtpPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "QuotationDetailsPageModule", function() { return QuotationDetailsPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__otp__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__quotation_details__ = __webpack_require__(108);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var OtpPageModule = /** @class */ (function () {
-    function OtpPageModule() {
+var QuotationDetailsPageModule = /** @class */ (function () {
+    function QuotationDetailsPageModule() {
     }
-    OtpPageModule = __decorate([
+    QuotationDetailsPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__otp__["a" /* OtpPage */],
+                __WEBPACK_IMPORTED_MODULE_2__quotation_details__["a" /* QuotationDetailsPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__otp__["a" /* OtpPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__quotation_details__["a" /* QuotationDetailsPage */]),
             ],
         })
-    ], OtpPageModule);
-    return OtpPageModule;
+    ], QuotationDetailsPageModule);
+    return QuotationDetailsPageModule;
 }());
 
-//# sourceMappingURL=otp.module.js.map
+//# sourceMappingURL=quotation-details.module.js.map
 
 /***/ })
 

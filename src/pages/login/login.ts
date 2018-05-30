@@ -28,9 +28,9 @@ export class LoginPage {
    responseData : any;
    logData = {"userid":"", "pwd":""}
  
-  constructor(private formBuilder: FormBuilder, public navCtrl: NavController, public navParams: NavParams, public authServiceProvider: AuthServiceProvider, private alertCtrl: AlertController) {
+  constructor(public formBuilder: FormBuilder, public navCtrl: NavController, public navParams: NavParams, public authServiceProvider: AuthServiceProvider, private alertCtrl: AlertController) {
         
-       this.mygroup = formBuilder.group({
+        this.mygroup = formBuilder.group({
         userid:['',Validators.required],
         password:['',Validators.required]
        });

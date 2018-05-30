@@ -7,28 +7,19 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-whitelist": {
+    "com.synconset.imagepicker": {
       "PACKAGE_NAME": "io.ionic.starter"
     },
     "cordova-plugin-device": {
       "PACKAGE_NAME": "io.ionic.starter"
     },
-    "cordova-plugin-ionic-webview": {
-      "PACKAGE_NAME": "io.ionic.starter"
-    },
-    "cordova-plugin-ionic-keyboard": {
+    "cordova-plugin-file-opener2": {
       "PACKAGE_NAME": "io.ionic.starter"
     },
     "cordova-plugin-filechooser": {
       "PACKAGE_NAME": "io.ionic.starter"
     },
-    "com.synconset.imagepicker": {
-      "PACKAGE_NAME": "io.ionic.starter"
-    },
     "cordova-plugin-hotspot": {
-      "PACKAGE_NAME": "io.ionic.starter"
-    },
-    "cordova-plugin-file-opener2": {
       "PACKAGE_NAME": "io.ionic.starter"
     }
   },

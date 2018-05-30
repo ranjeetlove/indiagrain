@@ -32,7 +32,7 @@ export class SignUpPage {
    responseData : any;
    userData = {"fname":"", "lname":"","email":"", "userid":"", "pwd":"", "usertype":""}
 
-  constructor(private formBuilder: FormBuilder, public navCtrl: NavController, public navParams: NavParams, public authServiceProvider: AuthServiceProvider, private alertCtrl: AlertController) {
+  constructor(public formBuilder: FormBuilder, public navCtrl: NavController, public navParams: NavParams, public authServiceProvider: AuthServiceProvider, private alertCtrl: AlertController) {
 
     this.signupform = formBuilder.group({
       fname:['',Validators.required],

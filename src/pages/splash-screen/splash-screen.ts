@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { SplashScreen } from '@ionic-native/splash-screen';
+//import { SplashScreen } from '@ionic-native/splash-screen';
 
 /**
  * Generated class for the SplashScreenPage page.
@@ -14,11 +14,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 })
 export class SplashScreenPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, private splashScreen: SplashScreen) {
+  constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad SplashScreenPage');
   }
-    
+  // private splashScreen: SplashScreen,
 }
